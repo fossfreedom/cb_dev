@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <!-- interface-requires coverart_widgets 1.0 -->
+<object class="GtkImage" id="cancel-icon">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-cancel</property>
+  </object>
+  <object class="GtkImage" id="sort_by_icon">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../img/sort.png</property>
+  </object>
+  <object class="GtkImage" id="arrow_up">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../img/arrow_up.png</property>
+  </object>
+  <object class="GtkMenu" id="filter_menu">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkRadioMenuItem" id="filter_all_menu_item">
+        <property name="use_action_appearance">False</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Search all fields</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkImage" id="genre_icon">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../img/genre.png</property>
+  </object>
+  <object class="GtkImage" id="decade_icon">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../img/calendar.png</property>
+  </object>
+  <object class="GtkImage" id="playlist_connect">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../img/icon_playlist.png</property>
+  </object>
+  <object class="GtkBox" id="main_box">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="valign">start</property>
+    <property name="margin_top">1</property>
+    <property name="border_width">5</property>
+    <property name="orientation">vertical</property>
+    <child>
+      <object class="GtkLabel" id="coverart_label">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="xalign">0</property>
+        <property name="yalign">0</property>
+        <property name="ypad">2</property>
+        <property name="label" translatable="yes">CoverArt</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">10</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkAlignment" id="entry_search_alignment">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="xalign">0</property>
+        <child>
+          <object class="RBSearchEntry" id="search_entry">
+            <property name="can_focus">False</property>
+          </object>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">20</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkBox" id="box1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="SortPopupButton" id="sort_by">
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="has_tooltip">True</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_right">1</property>
+            <property name="use_action_appearance">False</property>
+            <property name="image">sort_by_icon</property>
+            <property name="relief">half</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="SortOrderButton" id="sort_order">
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="has_tooltip">True</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_right">1</property>
+            <property name="use_action_appearance">False</property>
+            <property name="image">arrow_up</property>
+            <property name="relief">half</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSeparator" id="separator1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="padding">4</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="PlaylistPopupButton" id="playlist_button">
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="has_tooltip">True</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_right">1</property>
+            <property name="use_action_appearance">False</property>
+            <property name="image">playlist_connect</property>
+            <property name="relief">half</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GenrePopupButton" id="genre_button">
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="has_tooltip">True</property>
+            <property name="tooltip_text" translatable="yes">All Genres</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_right">1</property>
+            <property name="use_action_appearance">False</property>
+            <property name="image">genre_icon</property>
+            <property name="relief">half</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="DecadePopupButton" id="decade_button">
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="has_tooltip">True</property>
+            <property name="tooltip_text" translatable="yes">All Decades</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="margin_right">1</property>
+            <property name="use_action_appearance">False</property>
+            <property name="image">decade_icon</property>
+            <property name="relief">half</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">5</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="fill">True</property>
+        <property name="position">60</property>
+      </packing>
+    </child>
+  </object>
+</interface>

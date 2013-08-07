@@ -1,4 +1,4 @@
-# Catalan translation for coverartbrowser
+# Greek translation for coverartbrowser
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the coverartbrowser package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
@@ -8,102 +8,102 @@ msgstr ""
 "Project-Id-Version: coverartbrowser\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-07 14:45+0100\n"
-"PO-Revision-Date: 2013-04-18 19:01+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Catalan <ca@li.org>\n"
-"Language: ca\n"
+"PO-Revision-Date: 2013-06-20 13:30+0000\n"
+"Last-Translator: George Christofis <geochr22@gmail.com>\n"
+"Language-Team: Greek <el@li.org>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-05-10 12:44+0000\n"
-"X-Generator: Launchpad (build 16598)\n"
+"X-Launchpad-Export-Date: 2013-06-20 20:41+0000\n"
+"X-Generator: Launchpad (build 16673)\n"
 
 #: tmpl/albumartsearch-tmpl.html:141 tmpl/albumartsearch-tmpl.html:187
 msgid "Search Options"
-msgstr "Opcions de recerca"
+msgstr "Επιλογές αναζήτησης"
 
 #: tmpl/albumartsearch-tmpl.html:187
 msgid "Tip: doubleclick or drag a cover to use it as the album cover"
 msgstr ""
-"Consell: pot fer doble click o arrossegar una portada per usar-la com a "
-"portada per a l'àlbum"
+"Tip: κάντε διπλό κλικ ή σύρετε ένα εξώφυλλο για να το χρησιμοποιήσετε ως "
+"εξώφυλλο ενός άλμπουμ"
 
 #: tmpl/albumartsearch-tmpl.html:189
 msgid "Search Mode"
-msgstr "Mode de recerca"
+msgstr "Λειτουργία αναζήτησης"
 
 #: tmpl/albumartsearch-tmpl.html:191 coverart_browser_source.py:322
 msgid "Artist"
-msgstr "Artista"
+msgstr "Καλλιτέχνης"
 
 #: tmpl/albumartsearch-tmpl.html:192
 msgid "Album"
-msgstr "Àlbum"
+msgstr "Άλμπουμ"
 
 #: tmpl/albumartsearch-tmpl.html:193
 msgid "Artist and album"
-msgstr "Artista i album"
+msgstr "Καλλιτέχνης και άλμπουμ"
 
 #: tmpl/albumartsearch-tmpl.html:196
 msgid "Search text"
-msgstr "Busca text"
+msgstr "Αναζήτηση κειμένου"
 
 #: tmpl/albumartsearch-tmpl.html:199
 msgid "Search"
-msgstr "Cerca"
+msgstr "Αναζήτηση"
 
 #: tmpl/albumartsearch-tmpl.html:201
 msgid "Image Size"
-msgstr "Mida de la imatge"
+msgstr "Μέγεθος εικόνας"
 
 #: tmpl/albumartsearch-tmpl.html:203
 msgid "Small"
-msgstr "Petit"
+msgstr "Μικρό"
 
 #: tmpl/albumartsearch-tmpl.html:204
 msgid "Medium"
-msgstr "Mitjà"
+msgstr "Μεσαίο"
 
 #: tmpl/albumartsearch-tmpl.html:205
 msgid "Large"
-msgstr "Gran"
+msgstr "Μεγάλο"
 
 #: tmpl/albumartsearch-tmpl.html:206
 msgid "Extra Large"
-msgstr "Extra gran"
+msgstr "Πολύ μεγάλο"
 
 #: tmpl/albumartsearch-tmpl.html:211 coverart_browser_source.py:111
 msgid "Loading..."
-msgstr "Carregant..."
+msgstr "Φόρτωση ..."
 
 #: tmpl/albumartsearch-tmpl.html:213
 msgid "Show more results"
-msgstr "Mostra més resultats"
+msgstr "Εμφάνιση περισσότερων αποτελεσμάτων"
 
 #: tmp/coverart_browser.ui.h:1
 msgid "Tracks & Covers"
-msgstr "Pistes i Cobertes"
+msgstr "Κομμάτια & Εξώφυλλα"
 
 #: tmp/coverart_browser.ui.h:2
 #, fuzzy
 msgid "Track Artist"
-msgstr "Artista"
+msgstr "Καλλιτέχνης"
 
 #: tmp/coverart_browser.ui.h:3
 msgid "Stop coverart fetch."
-msgstr "Para la cerca de portades."
+msgstr ""
 
 #. initial genre
 #: tmp/coverart_topbar.ui.h:2 tmp/coverart_sidebar.ui.h:6
 #: coverart_controllers.py:215 coverart_controllers.py:267
 #: coverart_controllers.py:366
 msgid "All Genres"
-msgstr "Tots els gèneres"
+msgstr "Όλα τα είδη"
 
 #: tmp/coverart_topbar.ui.h:6 tmp/coverart_sidebar.ui.h:10
 #: coverart_controllers.py:485
 msgid "All Decades"
-msgstr "Totes les dècades"
+msgstr "Όλες οι δεκαετίες"
 
 #. . TRANSLATORS: This is the icon-grid view that the user sees
 #. . TRANSLATORS: Please try to keep the translation to less than 8 characters
@@ -121,101 +121,103 @@ msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:1
 msgid "Play this album"
-msgstr "Reprodueix este àlbum"
+msgstr "Αναπαραγωγή αυτού του άλμπουμ"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:2 tmp/coverart_browser_pop_rb3.ui.h:1
 msgid "Play Album"
-msgstr "Reprodueix l'àlbum"
+msgstr "Αναπαραγωγή Άλμπουμ"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:3
 msgid "Add this album to your playing queue"
-msgstr "Afegeix este àlbum a la cua de reproducció"
+msgstr "Προσθήκη αυτού του άλμπουμ στη σειρά αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:4 tmp/coverart_browser_pop_rb3.ui.h:2
 msgid "Queue Album"
-msgstr "Afegeix l'àlbum a la cua"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:5 tmp/coverart_entryview_pop_rb2.ui.h:5
 msgid "Add this album to a playlist"
-msgstr "Afegeix este àlbum a una llista de reproducció"
+msgstr "Προσθήκη αυτού του άλμπουμ σε μία λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:6 tmp/coverart_entryview_pop_rb2.ui.h:6
 #: tmp/coverart_browser_pop_rb3.ui.h:3 tmp/coverart_entryview_pop_rb3.ui.h:3
 msgid "Add to Playlist"
-msgstr "Afegeix a la llista de reproducció"
+msgstr "Προσθήκη στη λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:7 tmp/coverart_entryview_pop_rb2.ui.h:7
 msgid "Add this album to a new playlist"
-msgstr "Afegeix este àlbum a una llista de reproducció nova"
+msgstr "Προσθήκη αυτού του άλμπουμ σε μία νέα λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:8 tmp/coverart_entryview_pop_rb2.ui.h:8
 #: tmp/coverart_browser_pop_rb3.ui.h:4 tmp/coverart_entryview_pop_rb3.ui.h:4
 msgid "New Playlist"
-msgstr "Nova Llista de Reproducció"
+msgstr "Νέα λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:9
 msgid "Play favourites tracks from this album"
-msgstr "Reprodueix les cançons favorites a este àlbum"
+msgstr "Αναπαραγωγή αγαπημένων κομματιίων από αυτό το άλμπουμ"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:10 tmp/coverart_browser_pop_rb3.ui.h:5
 msgid "Play Favourites"
-msgstr "Reprodueix favorits"
+msgstr "Αναπαραγωγή αγαπημένων"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:11
 msgid "Add favourite tracks from this album to your playing queue"
-msgstr "Afegeix les cançons favorites a este àlbum a la cua de reproducció"
+msgstr ""
+"Προσθήκη αγαπημένων κομματιών από αυτό το άλμπουμ στη σειρά αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:12 tmp/coverart_browser_pop_rb3.ui.h:6
 msgid "Queue Favourites"
-msgstr "Afegeix els favorits a la cua"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:13
 msgid "Add favourite tracks from this album to a playlist"
-msgstr "Afegeix les cançons favorites d'este àlbum a una llista de reproducció"
+msgstr ""
+"Προσθήκη αγαπημένων κομματιών από αυτό το άλμπουμ σε μία λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:14 tmp/coverart_browser_pop_rb3.ui.h:7
 msgid "Add favourites to Playlist"
-msgstr "Afegeix favorits a una llista de reproducció"
+msgstr "Προσθήκη αγαπημένων τραγουδιών σε λίστα αναπαραγωγής"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:15
 msgid "Search for this album cover"
-msgstr "Cerca una portada per este àlbum"
+msgstr "Αναζήτηση για το εξώφυλλο του άλμπουμ"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:16 tmp/coverart_browser_pop_rb3.ui.h:8
 msgid "Search for covers"
-msgstr "Cerca portades"
+msgstr "Αναζήτηση για εξώφυλλα"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:17
 msgid "Export album tracks and embed coverart in track files"
-msgstr "Exporta pistes de l'àlbum i incrusta les cobertes als fitxers de pista"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:18 tmp/coverart_browser_pop_rb3.ui.h:9
 msgid "Export and embed coverart"
-msgstr "Exporta i incrusta cobertes"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:19
 msgid "Show album properties"
-msgstr "Mostra les propietats de l'àlbum"
+msgstr ""
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:1
 msgid "Play this track"
-msgstr "Reprodueix esta cançó"
+msgstr "Αναπαραγωγή αυτού του κομματιού"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:2 tmp/coverart_entryview_pop_rb3.ui.h:1
 msgid "Play Track"
-msgstr "Reprodueix la cançó"
+msgstr "Αναπαραγωγή κομματιού"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:3
 msgid "Add this track to your playing queue"
-msgstr "Afegeix esta cançó a la cua de reproducció"
+msgstr "Προσθήκη αυτού του κομματιού στη σειρά αναπαραγωγής."
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:4 tmp/coverart_entryview_pop_rb3.ui.h:2
 msgid "Queue Track"
-msgstr "Afegeix la cançó a la cua"
+msgstr ""
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:9
 msgid "Show track properties"
-msgstr "Mostra les propietats de la cançó"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb3.ui.h:10 tmp/coverart_entryview_pop_rb3.ui.h:5
 #: coverart_controllers.py:467
@@ -224,47 +226,40 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:2
 msgid "Select a picture"
-msgstr "Seleccioneu una imatge"
+msgstr "Επιλογή μιας εικόνας"
 
 #: tmp/coverart_browser_prefs.ui.h:6
 msgid "Select picture to add to Edit Genre icon drop-down list"
 msgstr ""
-"Seleccioneu una imatge per afegir-la a la llista desplegable d'Edició de "
-"Gènere"
 
 #: tmp/coverart_browser_prefs.ui.h:10
 msgid "Automatically Start"
-msgstr "Inicia Automàticament"
+msgstr "Αυτόματη εκκίνηση"
 
 #: tmp/coverart_browser_prefs.ui.h:14
 msgid "When rhythmbox starts, switch automatically to the coverart browser."
 msgstr ""
-"Quant comence rhythmbox, canvia automàticament al navegador de portades."
+"Όταν το Rhythmbox εκκινεί, να γίνεται αυτόματη μετάβαση στο coverart browser."
 
 #: tmp/coverart_browser_prefs.ui.h:18
-#, fuzzy
 msgid "Use source's custom statusbar"
-msgstr "Usa la barra d'estat personalitzada."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:22
 msgid ""
 "Use the source's custom statusbar to show the current selected album's "
 "related information instead of the global Rhythmbox's statusbar."
 msgstr ""
-"Usa la barra d'estat personalitzada per mostrar informació relacionada amb "
-"l'àlbum en compte d'usar la barra d'estat global de Rhythmbox."
 
 #: tmp/coverart_browser_prefs.ui.h:28
 msgid "Display tracks and covers pane"
-msgstr "Mostra el panel de cançons i portades"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:32
 msgid ""
 "Add a toggle-option to the coverart view to display the tracks and covers "
 "for the chosen album"
 msgstr ""
-"Afegís una finestra desplegable a la vista de portades per mostrar les "
-"cançons i portades de l'àlbum seleccionat"
 
 #: tmp/coverart_browser_prefs.ui.h:38
 msgid ""
@@ -274,84 +269,84 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:44
 msgid "Level above which is regarded as being a favourite track or album"
-msgstr "nivell a partir del qual es considera una pista o àlbum com a favorit."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:48
 msgid "Favourite Threshold"
-msgstr "Llindar de Puntuació"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:52
 msgid "General"
-msgstr "General"
+msgstr "Γενικά"
 
 #: tmp/coverart_browser_prefs.ui.h:56
 msgid "Album Information"
-msgstr "Informació de l'àlbum"
+msgstr "Πληροφορίες άλμπουμ"
 
 #: tmp/coverart_browser_prefs.ui.h:60
 msgid "Display album's info under cover"
-msgstr "Mostra informació de l'àlbum baix la seua portada"
+msgstr "Εμφάνιση πληροφοριών του άλμπουμ κάτω από το εξώφυλλο"
 
 #: tmp/coverart_browser_prefs.ui.h:64
 msgid "Show the album's basic information under the cover image."
-msgstr "Mostra informació bàsica de l'àlbum baix la seua imatge de portada."
+msgstr ""
+"Εμφάνιση των βασικών πληροφοριών του άλμπουμ κάτω από την εικόνα του "
+"εξωφύλλου"
 
 #: tmp/coverart_browser_prefs.ui.h:68
 msgid "Font size for the text below the cover-art."
-msgstr "Mida de la font pel text baix la portada"
+msgstr "Μέγεθος γραμματοσειράς για το κείμενο κάτω από το cover-art."
 
 #: tmp/coverart_browser_prefs.ui.h:72
 msgid "Font Size:"
-msgstr "Mida de la font:"
+msgstr "Μέγεθος γραμματοσειράς:"
 
 #: tmp/coverart_browser_prefs.ui.h:76
 msgid "Ellipsize albums names"
-msgstr "Retalla el nom dels àlbums"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:80
 msgid ""
 "Ellipsizes the albums names to a fixed length when the display text option "
 "is enabled."
 msgstr ""
-"Retalla els noms dels àlbums a una mida fixa, mostrant punts suspensius quan "
-"la opció per mostrar text estiga activada."
 
 #: tmp/coverart_browser_prefs.ui.h:86
 msgid "Maximum allowed length for an album's name before being ellipsized."
-msgstr "Mida màxima permesa pel nom de l'àlbum abans de ser retallat."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:90
 msgid "Maximum length:"
-msgstr "Mida màxima:"
+msgstr "Μέγιστο μήκος:"
 
 #: tmp/coverart_browser_prefs.ui.h:94
 msgid "Cover Appearance"
-msgstr "Aparença de la Portada"
+msgstr "Εμφάνιση εξωφύλλου"
 
 #: tmp/coverart_browser_prefs.ui.h:98
 msgid "Drop shadow"
-msgstr "Ombra"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:102
 msgid "Indicates if the albums should drop a shadow on the cover view"
-msgstr "Indica si l'àlbum deuria tindre ombra a la vista de la portada"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:106
 msgid "Light Source: "
-msgstr "Font de la Llum: "
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:110
 msgid "Defines the size for the covers showed on the source."
-msgstr "Defineix la mida per les portades que es mostren al plugin."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:114
 msgid "Size (in pixels):"
-msgstr "Mida (en pixels):"
+msgstr "Μέγεθος (σε pixels):"
 
 #: tmp/coverart_browser_prefs.ui.h:118
 #, fuzzy
 msgid "Tracks Pane"
-msgstr "Cançons"
+msgstr "Κομμάτια"
 
 #: tmp/coverart_browser_prefs.ui.h:122
 msgid "open or close on click of cover"
@@ -360,7 +355,7 @@ msgstr ""
 #: tmp/coverart_browser_prefs.ui.h:126
 #, fuzzy
 msgid "Advanced Options"
-msgstr "Opcions de recerca"
+msgstr "Επιλογές αναζήτησης"
 
 #: tmp/coverart_browser_prefs.ui.h:130
 msgid "Padding (space) around each icon"
@@ -381,7 +376,7 @@ msgstr ""
 #: tmp/coverart_browser_prefs.ui.h:151
 #, fuzzy
 msgid "Flow Appearance"
-msgstr "Aparença de la Portada"
+msgstr "Εμφάνιση εξωφύλλου"
 
 #: tmp/coverart_browser_prefs.ui.h:155
 msgid "width (px):"
@@ -414,227 +409,225 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:188
 msgid "Where the toolbar should be positioned"
-msgstr "On la barra d'eines deuria posar-se"
+msgstr "Που θα τοποθετηθεί η γραμμή εργαλείων"
 
 #: tmp/coverart_browser_prefs.ui.h:192
 msgid "Position"
-msgstr "Posició"
+msgstr "Θέση"
 
 #: tmp/coverart_browser_prefs.ui.h:196
 msgid "Show toolbar: "
-msgstr "Mostra la barra d'eines: "
+msgstr "Εμφάνιση γραμμής εργαλείων: "
 
 #: tmp/coverart_browser_prefs.ui.h:200
 msgid "Look & Feel"
-msgstr "Aspecte"
+msgstr "Εμφάνιση & Αίσθηση"
 
 #: tmp/coverart_browser_prefs.ui.h:204
 msgid "Flat-button style"
-msgstr "Estil de botó pla"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:208
 msgid "Icon Theme: "
-msgstr "Tema d'icones: "
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:212
 msgid "Alternative Genres:"
-msgstr "Gèneres Alternatius:"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:216
 msgid "Load New Icon: "
-msgstr "Carrega Nou Icona: "
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:220
 msgid "Select a new genre icon"
-msgstr "Seleccioneu una icona de nou gènere"
+msgstr "Επιλογή ενός νέου εικονιδίου για το είδος"
 
 #: tmp/coverart_browser_prefs.ui.h:224
 msgid "Edit Genre Details:"
-msgstr "Edita Detalls de Gènere:"
+msgstr "Επεξεργασία λεπτομερειών είδους:"
 
 #: tmp/coverart_browser_prefs.ui.h:228
 msgid "Save changes"
-msgstr "Desa els canvis"
+msgstr "Αποθήκευση αλλαγών"
 
 #: tmp/coverart_browser_prefs.ui.h:232
 msgid "Name:"
-msgstr "Nom:"
+msgstr "Όνομα:"
 
 #: tmp/coverart_browser_prefs.ui.h:236
 msgid "Icon:"
-msgstr "Icona:"
+msgstr "Εικονίδιο:"
 
 #: tmp/coverart_browser_prefs.ui.h:240
 msgid "Current user-defined Genres:"
-msgstr "Gèneres definits per l'usuari actuals:"
+msgstr "Τρέχοντα είδη ορισμένα από τον χρήστη:"
 
 #: tmp/coverart_browser_prefs.ui.h:244
 msgid "Alternate Name"
-msgstr "Nom Alternatiu"
+msgstr "Εναλλακτικό όνομα"
 
 #: tmp/coverart_browser_prefs.ui.h:248
 msgid "Icon"
-msgstr "Icona"
+msgstr "Εικονίδιο"
 
 #: tmp/coverart_browser_prefs.ui.h:252
 msgid "Add a new alternative genre"
-msgstr "Afegix un gènere nou alternatiu"
+msgstr "Προσθήκη ενός νέου εναλλακτικού είδους"
 
 #: tmp/coverart_browser_prefs.ui.h:256
 msgid "Delete an alternative genre"
-msgstr "Elimina un gènere alternatiu"
+msgstr "Διαγραφή ενός εναλλακτικού είδους"
 
 #: tmp/coverart_browser_prefs.ui.h:260
 msgid "Toolbar"
-msgstr "Barra d'eines"
+msgstr "Γραμμή εργαλείων"
 
 #: tmp/coverart_exportembed.ui.h:1
 msgid "Choose folder to save tracks:"
-msgstr "Tria carpeta per desar les pistes:"
+msgstr "Επιλογή φακέλου για αποθήκευση κομματιών:"
 
 #: tmp/coverart_exportembed.ui.h:2
 msgid "Select a Folder to export to"
-msgstr "Tria una carpeta per exportar"
+msgstr ""
 
 #: tmp/coverart_exportembed.ui.h:3
 msgid "Save tracks within folder using album name"
-msgstr "Desa pistes dins de la carpeta usant un nom d'àlbum"
+msgstr ""
 
 #: tmp/coverart_exportembed.ui.h:4
 msgid "Open embedded track folder in file-manager"
-msgstr "Obre directori de pistes incrustat amb el navegador d'arxius"
+msgstr ""
 
 #: tmp/coverart_exportembed.ui.h:5
 msgid ""
 "Tip: Drag and Drop exported tracks from file-manager to a playlist or "
 "telephone/other device"
 msgstr ""
-"Consell: Arrossega i desa les pistes exportades des del navegador d'arxius a "
-"una llista o un telèfon/altres dispositius"
 
 #: tmp/coverart_sidebar.ui.h:2 coverart_browser.py:102 coverart_browser.py:115
 msgid "CoverArt"
-msgstr "CoverArt"
+msgstr ""
 
 #: tmp/popups.xml.in.h:1
 msgid "rock"
-msgstr "rock"
+msgstr "ροκ"
 
 #: tmp/popups.xml.in.h:2
 msgid "country"
-msgstr "country"
+msgstr "κάντρι"
 
 #: tmp/popups.xml.in.h:3
 msgid "pop"
-msgstr "pop"
+msgstr "ποπ"
 
 #: tmp/popups.xml.in.h:4
 msgid "classical"
-msgstr "Clàssica"
+msgstr "κλασική"
 
 #: tmp/popups.xml.in.h:5
 msgid "world"
-msgstr "món"
+msgstr "διεθνής"
 
 #: tmp/popups.xml.in.h:6
 msgid "bluegrass"
-msgstr "bluegrass"
+msgstr ""
 
 #: tmp/popups.xml.in.h:7
 msgid "oldies"
-msgstr "antigues"
+msgstr "παλιά"
 
 #: tmp/popups.xml.in.h:8
 msgid "holiday"
-msgstr "festa"
+msgstr "διακοπών"
 
 #: tmp/popups.xml.in.h:9
 msgid "comedy"
-msgstr "comèdia"
+msgstr "κωμικά"
 
 #: tmp/popups.xml.in.h:10
 msgid "spoken"
-msgstr "parlat"
+msgstr "ομιλίες"
 
 #: tmp/popups.xml.in.h:11
 msgid "jazz"
-msgstr "jazz"
+msgstr "τζαζ"
 
 #: tmp/popups.xml.in.h:12
 msgid "blues"
-msgstr "blues"
+msgstr "μπλουζ"
 
 #: tmp/popups.xml.in.h:13
 msgid "metal"
-msgstr "metal"
+msgstr "μέταλ"
 
 #: tmp/popups.xml.in.h:14
 msgid "karaoke"
-msgstr "karaoke"
+msgstr "καραόκι"
 
 #: tmp/popups.xml.in.h:15
 msgid "rap"
-msgstr "rap"
+msgstr "ραπ"
 
 #: tmp/popups.xml.in.h:16
 msgid "ragtime"
-msgstr "ragtime"
+msgstr "ραγκτάιμ"
 
 #: tmp/popups.xml.in.h:17
 msgid "musical"
-msgstr "musical"
+msgstr "μιούζικαλ"
 
 #: tmp/popups.xml.in.h:18
 msgid "dance"
-msgstr "dance"
+msgstr "χορειτικά"
 
 #: tmp/popups.xml.in.h:19
 msgid "reggae"
-msgstr "reggae"
+msgstr "ρέγγε"
 
 #: tmp/popups.xml.in.h:20
 msgid "electronic"
-msgstr "electrònica"
+msgstr "ηλεκτρονική"
 
 #: tmp/popups.xml.in.h:21
 msgid "soundtrack"
-msgstr "banda sonora"
+msgstr "soundtrack"
 
 #: tmp/popups.xml.in.h:22
 msgid "latin"
-msgstr "latin"
+msgstr "λατιν"
 
 #: tmp/popups.xml.in.h:23
 msgid "alternative"
-msgstr "alternative"
+msgstr "εναλλακτική"
 
 #: tmp/popups.xml.in.h:24
 msgid "disco"
-msgstr "disco"
+msgstr "ντίσκο"
 
 #: tmp/popups.xml.in.h:25
 msgid "folk"
-msgstr "folk"
+msgstr "δημοτικά"
 
 #: tmp/popups.xml.in.h:26
 msgid "gospel"
-msgstr "gospel"
+msgstr "γκόσπελ"
 
 #: tmp/popups.xml.in.h:27
 msgid "experimental"
-msgstr "experimental"
+msgstr "πειραματική"
 
 #: tmp/popups.xml.in.h:28
 msgid "new age"
-msgstr "new age"
+msgstr "νέας γενιάς"
 
 #: tmp/popups.xml.in.h:29
 msgid "opera"
-msgstr "òpera"
+msgstr "όπερα"
 
 #: tmp/popups.xml.in.h:30
 msgid "anime"
-msgstr "anime"
+msgstr ""
 
 #: tmp/popups.xml.in.h:31
 msgid "soul"
@@ -642,33 +635,33 @@ msgstr "soul"
 
 #: tmp/popups.xml.in.h:32
 msgid "workout"
-msgstr "workout"
+msgstr ""
 
 #: tmp/popups.xml.in.h:33
 msgid "easy listening"
-msgstr "easy listening"
+msgstr ""
 
 #: tmp/popups.xml.in.h:34
 msgid "hip-hop"
-msgstr "hip-hop"
+msgstr "χιπ-χοπ"
 
 #: tmp/popups.xml.in.h:35
 msgid "children"
-msgstr "xiquets"
+msgstr "παιδική"
 
 #. . TRANSLATORS - for example "abba's greatest hits by ABBA"
 #: coverart_album.py:1604 coverart_browser_source.py:938
 #, python-format
 msgid "%s by %s"
-msgstr "%s per %s"
+msgstr "%s από %s"
 
 #: coverart_browser_source.py:281
 msgid "Tracks"
-msgstr "Cançons"
+msgstr "Κομμάτια"
 
 #: coverart_browser_source.py:292
 msgid "Covers"
-msgstr "Portades"
+msgstr ""
 
 #: coverart_browser_source.py:352
 msgid "All"
@@ -681,7 +674,7 @@ msgstr ""
 #: coverart_browser_source.py:706
 #, python-format
 msgid "Requesting cover for %s - %s..."
-msgstr "Cercant portada per %s - %s..."
+msgstr ""
 
 #: coverart_browser_source.py:862
 msgid ""
@@ -691,58 +684,58 @@ msgstr ""
 
 #. . TRANSLATORS - the number of albums that have been selected/highlighted
 #: coverart_browser_source.py:942
-#, fuzzy, python-format
+#, python-format
 msgid "%d selected albums"
-msgstr "%d àlbums seleccionats "
+msgstr ""
 
 #: coverart_browser_source.py:946
 msgid " with 1 track"
-msgstr " amb 1 cançó"
+msgstr " με 1 κομμάτι"
 
 #: coverart_browser_source.py:948
 #, python-format
 msgid " with %d tracks"
-msgstr " amb %d cançons"
+msgstr " με %d κομμάτια"
 
 #: coverart_browser_source.py:952
 msgid " and a duration of 1 minute"
-msgstr " i una duració d'un minut"
+msgstr ""
 
 #: coverart_browser_source.py:954
 #, python-format
 msgid " and a duration of %d minutes"
-msgstr " i una duració de %d minuts"
+msgstr ""
 
 #: coverart_controllers.py:382
 msgid "Sort by album name"
-msgstr "Ordena pel nom de l'àlbum"
+msgstr ""
 
 #: coverart_controllers.py:383
 msgid "Sort by album artist"
-msgstr "Ordena per artista de l'àlbum"
+msgstr ""
 
 #: coverart_controllers.py:384
 msgid "Sort by year"
-msgstr "Ordena per l'any"
+msgstr ""
 
 #: coverart_controllers.py:385
 msgid "Sort by rating"
-msgstr "Ordena per puntuació"
+msgstr ""
 
 #: coverart_controllers.py:432
 #, fuzzy
 msgid "Download all covers"
-msgstr "Descarrega totes les portades"
+msgstr "Μεταφόρτωση όλων των εξωφύλλων"
 
 #: coverart_controllers.py:433
 #, fuzzy
 msgid "Play random album"
-msgstr "Reprodueix este àlbum"
+msgstr "Αναπαραγωγή αυτού του άλμπουμ"
 
 #: coverart_controllers.py:434
 #, fuzzy
 msgid "Play favourite random album"
-msgstr "Reprodueix les cançons favorites a este àlbum"
+msgstr "Αναπαραγωγή αγαπημένων κομματιίων από αυτό το άλμπουμ"
 
 #: coverart_controllers.py:436
 msgid "Quick artist filter"
@@ -755,98 +748,98 @@ msgstr ""
 #: coverart_controllers.py:439
 #, fuzzy
 msgid "Search Preferences"
-msgstr "Cerca portades"
+msgstr "Αναζήτηση για εξώφυλλα"
 
 #. '20s' as in the decade 2010
 #: coverart_controllers.py:487 coverart_controllers.py:513
 msgid "20s"
-msgstr "20s"
+msgstr ""
 
 #. '10s' as in the decade 2010
 #: coverart_controllers.py:489
 msgid "10s"
-msgstr "10s"
+msgstr ""
 
 #. '00s' as in the decade 2000
 #: coverart_controllers.py:491
 msgid "00s"
-msgstr "00s"
+msgstr ""
 
 #. '90s' as in the decade 1990
 #: coverart_controllers.py:493
 msgid "90s"
-msgstr "90s"
+msgstr ""
 
 #. '80s' as in the decade 1980
 #: coverart_controllers.py:495
 msgid "80s"
-msgstr "80s"
+msgstr ""
 
 #. '70s' as in the decade 1970
 #: coverart_controllers.py:497
 msgid "70s"
-msgstr "70s"
+msgstr ""
 
 #. '60s' as in the decade 1960
 #: coverart_controllers.py:499
 msgid "60s"
-msgstr "60s"
+msgstr ""
 
 #. '50s' as in the decade 1950
 #: coverart_controllers.py:501
 msgid "50s"
-msgstr "50s"
+msgstr ""
 
 #. '40s' as in the decade 1940
 #: coverart_controllers.py:503
 msgid "40s"
-msgstr "40s"
+msgstr ""
 
 #. '30s' as in the decade 1930
 #: coverart_controllers.py:505
 msgid "30s"
-msgstr "30s"
+msgstr ""
 
 #. 'Older' as in 'older than the year 1930'
 #: coverart_controllers.py:507
 msgid "Older"
-msgstr "Més antigues"
+msgstr ""
 
 #. options
 #: coverart_controllers.py:552
 msgid "Sort in descending order"
-msgstr "Ordena en ordre descendent"
+msgstr ""
 
 #: coverart_controllers.py:553
 msgid "Sort in ascending order"
-msgstr "Ordena en ordre ascendent"
+msgstr ""
 
 #: coverart_controllers.py:605
 msgid "Search all fields"
-msgstr "Cerca tots els camps"
+msgstr ""
 
 #: coverart_controllers.py:606
 msgid "Search album artists"
-msgstr "Cerca per artista de l'àlbum"
+msgstr ""
 
 #: coverart_controllers.py:607
 msgid "Search track artists"
-msgstr "Cerca per artista de la cançó"
+msgstr ""
 
 #: coverart_controllers.py:608
 msgid "Search albums"
-msgstr "Cerca els àlbums"
+msgstr ""
 
 #: coverart_controllers.py:609
 msgid "Search tracks"
-msgstr "Cerca cançons"
+msgstr "Αναζήτηση κομματιών"
 
 #. . TRANSLATORS: Do not translate this string.
 #: coverart_browser_prefs.py:267
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  VPablo https://launchpad.net/~villumar"
+"  George Christofis https://launchpad.net/~geochr"
 
 #. TRANSLATORS: for example 'Number of covers limited to 150'
 #: coverart_coverflowview.py:197
@@ -857,40 +850,30 @@ msgstr ""
 #. define .plugin text strings used for translation
 #: coverart_browser.py:159
 msgid "CoverArt Browser"
-msgstr "Navegador de Portades"
+msgstr ""
 
 #: coverart_browser.py:160
 msgid "Browse and play your albums through their covers"
-msgstr "Navega i reprodueix els àlbums mitjançant les seues portades"
+msgstr ""
 
 #~ msgid "Above"
-#~ msgstr "Per damunt"
+#~ msgstr "Επάνω"
 
 #~ msgid "Top Left"
-#~ msgstr "Superior esquerre"
+#~ msgstr "Επάνω Αριστερά"
 
 #~ msgid "Top Center"
-#~ msgstr "Superior centrat"
+#~ msgstr "Πάνω κέντρο"
 
 #~ msgid "Top Right"
-#~ msgstr "Superior dret"
-
-#~ msgid "Above Cover View"
-#~ msgstr "Per damunt la visualització"
+#~ msgstr "Επάνω Δεξιά"
 
 #~ msgid "Left Sidebar"
-#~ msgstr "Barra esquerra"
+#~ msgstr "Αριστερή πλευρική μπάρα"
 
 #~ msgid "Right Sidebar"
-#~ msgstr "Barra dreta"
-
-#, fuzzy
-#~ msgid "170"
-#~ msgstr "10s"
+#~ msgstr "Δεξιά πλευρική μπάρα"
 
 #, fuzzy
 #~ msgid "Coverflow"
-#~ msgstr "Portada"
-
-#~ msgid "Search for covers where an album does not currently have one"
-#~ msgstr "Cerca portades per als àlbums que no en tenen"
+#~ msgstr "Εξώφυλλο"

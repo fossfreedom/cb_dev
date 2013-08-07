@@ -1,4 +1,4 @@
-# Catalan translation for coverartbrowser
+# Galician translation for coverartbrowser
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the coverartbrowser package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2013-08-07 14:45+0100\n"
 "PO-Revision-Date: 2013-04-18 19:01+0000\n"
 "Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Catalan <ca@li.org>\n"
-"Language: ca\n"
+"Language-Team: Galician <gl@li.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,90 +20,90 @@ msgstr ""
 
 #: tmpl/albumartsearch-tmpl.html:141 tmpl/albumartsearch-tmpl.html:187
 msgid "Search Options"
-msgstr "Opcions de recerca"
+msgstr "Opcións da busca"
 
 #: tmpl/albumartsearch-tmpl.html:187
 msgid "Tip: doubleclick or drag a cover to use it as the album cover"
 msgstr ""
-"Consell: pot fer doble click o arrossegar una portada per usar-la com a "
-"portada per a l'àlbum"
+"Consello: prema dúas veces ou arrastre a cuberta para usala como cuberta "
+"deste álbum"
 
 #: tmpl/albumartsearch-tmpl.html:189
 msgid "Search Mode"
-msgstr "Mode de recerca"
+msgstr "Modo de busca"
 
 #: tmpl/albumartsearch-tmpl.html:191 coverart_browser_source.py:322
 msgid "Artist"
-msgstr "Artista"
+msgstr "Intérprete"
 
 #: tmpl/albumartsearch-tmpl.html:192
 msgid "Album"
-msgstr "Àlbum"
+msgstr "Álbum"
 
 #: tmpl/albumartsearch-tmpl.html:193
 msgid "Artist and album"
-msgstr "Artista i album"
+msgstr "Interprete e álbum"
 
 #: tmpl/albumartsearch-tmpl.html:196
 msgid "Search text"
-msgstr "Busca text"
+msgstr "Buscar texto"
 
 #: tmpl/albumartsearch-tmpl.html:199
 msgid "Search"
-msgstr "Cerca"
+msgstr "Buscar"
 
 #: tmpl/albumartsearch-tmpl.html:201
 msgid "Image Size"
-msgstr "Mida de la imatge"
+msgstr "Tamaño da imaxe"
 
 #: tmpl/albumartsearch-tmpl.html:203
 msgid "Small"
-msgstr "Petit"
+msgstr "Pequena"
 
 #: tmpl/albumartsearch-tmpl.html:204
 msgid "Medium"
-msgstr "Mitjà"
+msgstr "Media"
 
 #: tmpl/albumartsearch-tmpl.html:205
 msgid "Large"
-msgstr "Gran"
+msgstr "Grande"
 
 #: tmpl/albumartsearch-tmpl.html:206
 msgid "Extra Large"
-msgstr "Extra gran"
+msgstr "Moi grande"
 
 #: tmpl/albumartsearch-tmpl.html:211 coverart_browser_source.py:111
 msgid "Loading..."
-msgstr "Carregant..."
+msgstr "Cargando..."
 
 #: tmpl/albumartsearch-tmpl.html:213
 msgid "Show more results"
-msgstr "Mostra més resultats"
+msgstr "Amosar máis resultados"
 
 #: tmp/coverart_browser.ui.h:1
 msgid "Tracks & Covers"
-msgstr "Pistes i Cobertes"
+msgstr "Pistas e cubertas"
 
 #: tmp/coverart_browser.ui.h:2
 #, fuzzy
 msgid "Track Artist"
-msgstr "Artista"
+msgstr "Intérprete"
 
 #: tmp/coverart_browser.ui.h:3
 msgid "Stop coverart fetch."
-msgstr "Para la cerca de portades."
+msgstr "Deter a busca de cubertas."
 
 #. initial genre
 #: tmp/coverart_topbar.ui.h:2 tmp/coverart_sidebar.ui.h:6
 #: coverart_controllers.py:215 coverart_controllers.py:267
 #: coverart_controllers.py:366
 msgid "All Genres"
-msgstr "Tots els gèneres"
+msgstr "Todos os xéneros"
 
 #: tmp/coverart_topbar.ui.h:6 tmp/coverart_sidebar.ui.h:10
 #: coverart_controllers.py:485
 msgid "All Decades"
-msgstr "Totes les dècades"
+msgstr "Todas as décadas"
 
 #. . TRANSLATORS: This is the icon-grid view that the user sees
 #. . TRANSLATORS: Please try to keep the translation to less than 8 characters
@@ -121,101 +121,102 @@ msgstr ""
 
 #: tmp/coverart_browser_pop_rb2.ui.h:1
 msgid "Play this album"
-msgstr "Reprodueix este àlbum"
+msgstr "Reproducir este álbum"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:2 tmp/coverart_browser_pop_rb3.ui.h:1
 msgid "Play Album"
-msgstr "Reprodueix l'àlbum"
+msgstr "Reproducir o álbum"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:3
 msgid "Add this album to your playing queue"
-msgstr "Afegeix este àlbum a la cua de reproducció"
+msgstr "Engadir este álbum á cola de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:4 tmp/coverart_browser_pop_rb3.ui.h:2
 msgid "Queue Album"
-msgstr "Afegeix l'àlbum a la cua"
+msgstr "Álbum na cola de espera"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:5 tmp/coverart_entryview_pop_rb2.ui.h:5
 msgid "Add this album to a playlist"
-msgstr "Afegeix este àlbum a una llista de reproducció"
+msgstr "Engadir este álbum á lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:6 tmp/coverart_entryview_pop_rb2.ui.h:6
 #: tmp/coverart_browser_pop_rb3.ui.h:3 tmp/coverart_entryview_pop_rb3.ui.h:3
 msgid "Add to Playlist"
-msgstr "Afegeix a la llista de reproducció"
+msgstr "Engadir á lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:7 tmp/coverart_entryview_pop_rb2.ui.h:7
 msgid "Add this album to a new playlist"
-msgstr "Afegeix este àlbum a una llista de reproducció nova"
+msgstr "Engadir este album á unha nova lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:8 tmp/coverart_entryview_pop_rb2.ui.h:8
 #: tmp/coverart_browser_pop_rb3.ui.h:4 tmp/coverart_entryview_pop_rb3.ui.h:4
 msgid "New Playlist"
-msgstr "Nova Llista de Reproducció"
+msgstr "Nova lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:9
 msgid "Play favourites tracks from this album"
-msgstr "Reprodueix les cançons favorites a este àlbum"
+msgstr "Reproducir as pistas preferidas deste álbum"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:10 tmp/coverart_browser_pop_rb3.ui.h:5
 msgid "Play Favourites"
-msgstr "Reprodueix favorits"
+msgstr "Reproducir as preferidas"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:11
 msgid "Add favourite tracks from this album to your playing queue"
-msgstr "Afegeix les cançons favorites a este àlbum a la cua de reproducció"
+msgstr "Engade as pistas preferidas á súa cola de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:12 tmp/coverart_browser_pop_rb3.ui.h:6
 msgid "Queue Favourites"
-msgstr "Afegeix els favorits a la cua"
+msgstr "Poñer na cola de preferidas"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:13
 msgid "Add favourite tracks from this album to a playlist"
-msgstr "Afegeix les cançons favorites d'este àlbum a una llista de reproducció"
+msgstr "Engade as pistas preferidas deste álbom á súa lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:14 tmp/coverart_browser_pop_rb3.ui.h:7
 msgid "Add favourites to Playlist"
-msgstr "Afegeix favorits a una llista de reproducció"
+msgstr "Engadir as preferidas á lista de reprodución"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:15
 msgid "Search for this album cover"
-msgstr "Cerca una portada per este àlbum"
+msgstr "Buscar a cuberta deste álbum"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:16 tmp/coverart_browser_pop_rb3.ui.h:8
 msgid "Search for covers"
-msgstr "Cerca portades"
+msgstr "Busca de cubertas"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:17
 msgid "Export album tracks and embed coverart in track files"
-msgstr "Exporta pistes de l'àlbum i incrusta les cobertes als fitxers de pista"
+msgstr ""
+"Exportar as pistas do álbum e incrustar as portadas nos ficheiros de pistas"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:18 tmp/coverart_browser_pop_rb3.ui.h:9
 msgid "Export and embed coverart"
-msgstr "Exporta i incrusta cobertes"
+msgstr "Exportar e incrustar as portadas"
 
 #: tmp/coverart_browser_pop_rb2.ui.h:19
 msgid "Show album properties"
-msgstr "Mostra les propietats de l'àlbum"
+msgstr "Amosar as propiedades do álbum"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:1
 msgid "Play this track"
-msgstr "Reprodueix esta cançó"
+msgstr "Reproducir esta pista"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:2 tmp/coverart_entryview_pop_rb3.ui.h:1
 msgid "Play Track"
-msgstr "Reprodueix la cançó"
+msgstr "Reproducir pista"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:3
 msgid "Add this track to your playing queue"
-msgstr "Afegeix esta cançó a la cua de reproducció"
+msgstr "Engadir esta pista na súa cola de reprodución"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:4 tmp/coverart_entryview_pop_rb3.ui.h:2
 msgid "Queue Track"
-msgstr "Afegeix la cançó a la cua"
+msgstr "Pór a pista en espera"
 
 #: tmp/coverart_entryview_pop_rb2.ui.h:9
 msgid "Show track properties"
-msgstr "Mostra les propietats de la cançó"
+msgstr "Amosar as propiedades da pista"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:10 tmp/coverart_entryview_pop_rb3.ui.h:5
 #: coverart_controllers.py:467
@@ -224,47 +225,48 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:2
 msgid "Select a picture"
-msgstr "Seleccioneu una imatge"
+msgstr "Seleccione unha imaxe"
 
 #: tmp/coverart_browser_prefs.ui.h:6
 msgid "Select picture to add to Edit Genre icon drop-down list"
 msgstr ""
-"Seleccioneu una imatge per afegir-la a la llista desplegable d'Edició de "
-"Gènere"
+"Seleccione unha imaxe para engadir a Editar a icona de xénero na lista "
+"despregábel"
 
 #: tmp/coverart_browser_prefs.ui.h:10
 msgid "Automatically Start"
-msgstr "Inicia Automàticament"
+msgstr "Comezar automáticamente"
 
 #: tmp/coverart_browser_prefs.ui.h:14
 msgid "When rhythmbox starts, switch automatically to the coverart browser."
 msgstr ""
-"Quant comence rhythmbox, canvia automàticament al navegador de portades."
+"Cando se inicie Rhythmbox, conmutar automaticamente co navegador de cubertas."
 
 #: tmp/coverart_browser_prefs.ui.h:18
 #, fuzzy
 msgid "Use source's custom statusbar"
-msgstr "Usa la barra d'estat personalitzada."
+msgstr "Utilizar como orixe a barra de estado personalizada"
 
 #: tmp/coverart_browser_prefs.ui.h:22
 msgid ""
 "Use the source's custom statusbar to show the current selected album's "
 "related information instead of the global Rhythmbox's statusbar."
 msgstr ""
-"Usa la barra d'estat personalitzada per mostrar informació relacionada amb "
-"l'àlbum en compte d'usar la barra d'estat global de Rhythmbox."
+"Utilizar a orixe da barra de estado personalizado, para amosar as "
+"informacións relacionadas co álbum seleccionado no canto da barra de estado "
+"global do Rhythmbox"
 
 #: tmp/coverart_browser_prefs.ui.h:28
 msgid "Display tracks and covers pane"
-msgstr "Mostra el panel de cançons i portades"
+msgstr "Amosar as pistas e o panel de cubertas"
 
 #: tmp/coverart_browser_prefs.ui.h:32
 msgid ""
 "Add a toggle-option to the coverart view to display the tracks and covers "
 "for the chosen album"
 msgstr ""
-"Afegís una finestra desplegable a la vista de portades per mostrar les "
-"cançons i portades de l'àlbum seleccionat"
+"Engade unha opción para conmutar a vista da cuberta, amosando as pistas e as "
+"cubertas do álbum escollido"
 
 #: tmp/coverart_browser_prefs.ui.h:38
 msgid ""
@@ -274,84 +276,84 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:44
 msgid "Level above which is regarded as being a favourite track or album"
-msgstr "nivell a partir del qual es considera una pista o àlbum com a favorit."
+msgstr "Nivel a partir do que unha pista ou álbum é considerada como preferida"
 
 #: tmp/coverart_browser_prefs.ui.h:48
 msgid "Favourite Threshold"
-msgstr "Llindar de Puntuació"
+msgstr "Limiar de preferida"
 
 #: tmp/coverart_browser_prefs.ui.h:52
 msgid "General"
-msgstr "General"
+msgstr "Xeral"
 
 #: tmp/coverart_browser_prefs.ui.h:56
 msgid "Album Information"
-msgstr "Informació de l'àlbum"
+msgstr "Información sobe o álbum"
 
 #: tmp/coverart_browser_prefs.ui.h:60
 msgid "Display album's info under cover"
-msgstr "Mostra informació de l'àlbum baix la seua portada"
+msgstr "Amosar a información do álbum baixo a cuberta"
 
 #: tmp/coverart_browser_prefs.ui.h:64
 msgid "Show the album's basic information under the cover image."
-msgstr "Mostra informació bàsica de l'àlbum baix la seua imatge de portada."
+msgstr "Amosar a información básica do álbum baixo a imaxe da cuberta"
 
 #: tmp/coverart_browser_prefs.ui.h:68
 msgid "Font size for the text below the cover-art."
-msgstr "Mida de la font pel text baix la portada"
+msgstr "Tamaño da letra para o texto baixo a cuberta"
 
 #: tmp/coverart_browser_prefs.ui.h:72
 msgid "Font Size:"
-msgstr "Mida de la font:"
+msgstr "Tamaño da letra:"
 
 #: tmp/coverart_browser_prefs.ui.h:76
 msgid "Ellipsize albums names"
-msgstr "Retalla el nom dels àlbums"
+msgstr "Reducir o nome dos álbums"
 
 #: tmp/coverart_browser_prefs.ui.h:80
 msgid ""
 "Ellipsizes the albums names to a fixed length when the display text option "
 "is enabled."
 msgstr ""
-"Retalla els noms dels àlbums a una mida fixa, mostrant punts suspensius quan "
-"la opció per mostrar text estiga activada."
+"Reduce a unha lonxitude fixa os nomes dos álbumsL cando a está activada a "
+"opción de amosar o texto"
 
 #: tmp/coverart_browser_prefs.ui.h:86
 msgid "Maximum allowed length for an album's name before being ellipsized."
-msgstr "Mida màxima permesa pel nom de l'àlbum abans de ser retallat."
+msgstr "Lonxitude máxima permitida para o nome dun álbum antes de ser reducido"
 
 #: tmp/coverart_browser_prefs.ui.h:90
 msgid "Maximum length:"
-msgstr "Mida màxima:"
+msgstr "Lonxitude máxima:"
 
 #: tmp/coverart_browser_prefs.ui.h:94
 msgid "Cover Appearance"
-msgstr "Aparença de la Portada"
+msgstr "Aparencia das cubertas"
 
 #: tmp/coverart_browser_prefs.ui.h:98
 msgid "Drop shadow"
-msgstr "Ombra"
+msgstr "Sombra base"
 
 #: tmp/coverart_browser_prefs.ui.h:102
 msgid "Indicates if the albums should drop a shadow on the cover view"
-msgstr "Indica si l'àlbum deuria tindre ombra a la vista de la portada"
+msgstr "Indica se os álbums deben ter unha sombra base no visor de cubertas"
 
 #: tmp/coverart_browser_prefs.ui.h:106
 msgid "Light Source: "
-msgstr "Font de la Llum: "
+msgstr "Orixe da luz: "
 
 #: tmp/coverart_browser_prefs.ui.h:110
 msgid "Defines the size for the covers showed on the source."
-msgstr "Defineix la mida per les portades que es mostren al plugin."
+msgstr "Define o tamaño na orixe das cubertas amosadas"
 
 #: tmp/coverart_browser_prefs.ui.h:114
 msgid "Size (in pixels):"
-msgstr "Mida (en pixels):"
+msgstr "Tamaño (en píxeles):"
 
 #: tmp/coverart_browser_prefs.ui.h:118
 #, fuzzy
 msgid "Tracks Pane"
-msgstr "Cançons"
+msgstr "Pistas"
 
 #: tmp/coverart_browser_prefs.ui.h:122
 msgid "open or close on click of cover"
@@ -360,7 +362,7 @@ msgstr ""
 #: tmp/coverart_browser_prefs.ui.h:126
 #, fuzzy
 msgid "Advanced Options"
-msgstr "Opcions de recerca"
+msgstr "Opcións da busca"
 
 #: tmp/coverart_browser_prefs.ui.h:130
 msgid "Padding (space) around each icon"
@@ -381,7 +383,7 @@ msgstr ""
 #: tmp/coverart_browser_prefs.ui.h:151
 #, fuzzy
 msgid "Flow Appearance"
-msgstr "Aparença de la Portada"
+msgstr "Aparencia das cubertas"
 
 #: tmp/coverart_browser_prefs.ui.h:155
 msgid "width (px):"
@@ -414,51 +416,51 @@ msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:188
 msgid "Where the toolbar should be positioned"
-msgstr "On la barra d'eines deuria posar-se"
+msgstr "Onde debe ser situada a barra de ferramentas"
 
 #: tmp/coverart_browser_prefs.ui.h:192
 msgid "Position"
-msgstr "Posició"
+msgstr "Posición"
 
 #: tmp/coverart_browser_prefs.ui.h:196
 msgid "Show toolbar: "
-msgstr "Mostra la barra d'eines: "
+msgstr "Amosar a barra de ferramentas: "
 
 #: tmp/coverart_browser_prefs.ui.h:200
 msgid "Look & Feel"
-msgstr "Aspecte"
+msgstr "Aparencia e comportamento"
 
 #: tmp/coverart_browser_prefs.ui.h:204
 msgid "Flat-button style"
-msgstr "Estil de botó pla"
+msgstr "Botón de estilo plano"
 
 #: tmp/coverart_browser_prefs.ui.h:208
 msgid "Icon Theme: "
-msgstr "Tema d'icones: "
+msgstr "Tema de iconas: "
 
 #: tmp/coverart_browser_prefs.ui.h:212
 msgid "Alternative Genres:"
-msgstr "Gèneres Alternatius:"
+msgstr "Xéneros alternativos"
 
 #: tmp/coverart_browser_prefs.ui.h:216
 msgid "Load New Icon: "
-msgstr "Carrega Nou Icona: "
+msgstr "Cargar unha nova icona: "
 
 #: tmp/coverart_browser_prefs.ui.h:220
 msgid "Select a new genre icon"
-msgstr "Seleccioneu una icona de nou gènere"
+msgstr "Seleccionar unha nova icona para o xénero"
 
 #: tmp/coverart_browser_prefs.ui.h:224
 msgid "Edit Genre Details:"
-msgstr "Edita Detalls de Gènere:"
+msgstr "Editar os detalles do xénero:"
 
 #: tmp/coverart_browser_prefs.ui.h:228
 msgid "Save changes"
-msgstr "Desa els canvis"
+msgstr "Gardar os cambios"
 
 #: tmp/coverart_browser_prefs.ui.h:232
 msgid "Name:"
-msgstr "Nom:"
+msgstr "Nome:"
 
 #: tmp/coverart_browser_prefs.ui.h:236
 msgid "Icon:"
@@ -466,11 +468,11 @@ msgstr "Icona:"
 
 #: tmp/coverart_browser_prefs.ui.h:240
 msgid "Current user-defined Genres:"
-msgstr "Gèneres definits per l'usuari actuals:"
+msgstr "Xéneros actuais definidos polo usuario:"
 
 #: tmp/coverart_browser_prefs.ui.h:244
 msgid "Alternate Name"
-msgstr "Nom Alternatiu"
+msgstr "Nome alternativo"
 
 #: tmp/coverart_browser_prefs.ui.h:248
 msgid "Icon"
@@ -478,43 +480,43 @@ msgstr "Icona"
 
 #: tmp/coverart_browser_prefs.ui.h:252
 msgid "Add a new alternative genre"
-msgstr "Afegix un gènere nou alternatiu"
+msgstr "Engadir un novo xénero alternativo"
 
 #: tmp/coverart_browser_prefs.ui.h:256
 msgid "Delete an alternative genre"
-msgstr "Elimina un gènere alternatiu"
+msgstr "Eliminar un xénero alternativo"
 
 #: tmp/coverart_browser_prefs.ui.h:260
 msgid "Toolbar"
-msgstr "Barra d'eines"
+msgstr "Barra de ferramentas"
 
 #: tmp/coverart_exportembed.ui.h:1
 msgid "Choose folder to save tracks:"
-msgstr "Tria carpeta per desar les pistes:"
+msgstr "Escolla o cartafol no que gardar as pistas:"
 
 #: tmp/coverart_exportembed.ui.h:2
 msgid "Select a Folder to export to"
-msgstr "Tria una carpeta per exportar"
+msgstr "Seleccione un cartafol para exportar a"
 
 #: tmp/coverart_exportembed.ui.h:3
 msgid "Save tracks within folder using album name"
-msgstr "Desa pistes dins de la carpeta usant un nom d'àlbum"
+msgstr "Gardar as pistas nun cartafol co nome do álbum"
 
 #: tmp/coverart_exportembed.ui.h:4
 msgid "Open embedded track folder in file-manager"
-msgstr "Obre directori de pistes incrustat amb el navegador d'arxius"
+msgstr "Abrir o cartafol coas pistas incrustadas no xestor de ficheiros"
 
 #: tmp/coverart_exportembed.ui.h:5
 msgid ""
 "Tip: Drag and Drop exported tracks from file-manager to a playlist or "
 "telephone/other device"
 msgstr ""
-"Consell: Arrossega i desa les pistes exportades des del navegador d'arxius a "
-"una llista o un telèfon/altres dispositius"
+"Consello: arrastrar e soltar as pistas exportadas desde o xestor de "
+"ficheiros a unha lista de reprodución ou teléfono/outro dispositivo"
 
 #: tmp/coverart_sidebar.ui.h:2 coverart_browser.py:102 coverart_browser.py:115
 msgid "CoverArt"
-msgstr "CoverArt"
+msgstr "Cubertas"
 
 #: tmp/popups.xml.in.h:1
 msgid "rock"
@@ -530,11 +532,11 @@ msgstr "pop"
 
 #: tmp/popups.xml.in.h:4
 msgid "classical"
-msgstr "Clàssica"
+msgstr "clásica"
 
 #: tmp/popups.xml.in.h:5
 msgid "world"
-msgstr "món"
+msgstr "música do mundo"
 
 #: tmp/popups.xml.in.h:6
 msgid "bluegrass"
@@ -542,19 +544,19 @@ msgstr "bluegrass"
 
 #: tmp/popups.xml.in.h:7
 msgid "oldies"
-msgstr "antigues"
+msgstr "vellos éxitos"
 
 #: tmp/popups.xml.in.h:8
 msgid "holiday"
-msgstr "festa"
+msgstr "natividade"
 
 #: tmp/popups.xml.in.h:9
 msgid "comedy"
-msgstr "comèdia"
+msgstr "comedia"
 
 #: tmp/popups.xml.in.h:10
 msgid "spoken"
-msgstr "parlat"
+msgstr "falado"
 
 #: tmp/popups.xml.in.h:11
 msgid "jazz"
@@ -594,7 +596,7 @@ msgstr "reggae"
 
 #: tmp/popups.xml.in.h:20
 msgid "electronic"
-msgstr "electrònica"
+msgstr "electrónica"
 
 #: tmp/popups.xml.in.h:21
 msgid "soundtrack"
@@ -602,11 +604,11 @@ msgstr "banda sonora"
 
 #: tmp/popups.xml.in.h:22
 msgid "latin"
-msgstr "latin"
+msgstr "latino"
 
 #: tmp/popups.xml.in.h:23
 msgid "alternative"
-msgstr "alternative"
+msgstr "alternativa"
 
 #: tmp/popups.xml.in.h:24
 msgid "disco"
@@ -614,11 +616,11 @@ msgstr "disco"
 
 #: tmp/popups.xml.in.h:25
 msgid "folk"
-msgstr "folk"
+msgstr "folclore"
 
 #: tmp/popups.xml.in.h:26
 msgid "gospel"
-msgstr "gospel"
+msgstr "espiritual"
 
 #: tmp/popups.xml.in.h:27
 msgid "experimental"
@@ -630,7 +632,7 @@ msgstr "new age"
 
 #: tmp/popups.xml.in.h:29
 msgid "opera"
-msgstr "òpera"
+msgstr "opera"
 
 #: tmp/popups.xml.in.h:30
 msgid "anime"
@@ -642,11 +644,11 @@ msgstr "soul"
 
 #: tmp/popups.xml.in.h:32
 msgid "workout"
-msgstr "workout"
+msgstr "entretemento"
 
 #: tmp/popups.xml.in.h:33
 msgid "easy listening"
-msgstr "easy listening"
+msgstr "música lixeira"
 
 #: tmp/popups.xml.in.h:34
 msgid "hip-hop"
@@ -654,21 +656,21 @@ msgstr "hip-hop"
 
 #: tmp/popups.xml.in.h:35
 msgid "children"
-msgstr "xiquets"
+msgstr "infantil"
 
 #. . TRANSLATORS - for example "abba's greatest hits by ABBA"
 #: coverart_album.py:1604 coverart_browser_source.py:938
 #, python-format
 msgid "%s by %s"
-msgstr "%s per %s"
+msgstr "%s por %s"
 
 #: coverart_browser_source.py:281
 msgid "Tracks"
-msgstr "Cançons"
+msgstr "Pistas"
 
 #: coverart_browser_source.py:292
 msgid "Covers"
-msgstr "Portades"
+msgstr "Cubertas"
 
 #: coverart_browser_source.py:352
 msgid "All"
@@ -681,7 +683,7 @@ msgstr ""
 #: coverart_browser_source.py:706
 #, python-format
 msgid "Requesting cover for %s - %s..."
-msgstr "Cercant portada per %s - %s..."
+msgstr "Solicitando a cuberta para %s - %s..."
 
 #: coverart_browser_source.py:862
 msgid ""
@@ -693,56 +695,56 @@ msgstr ""
 #: coverart_browser_source.py:942
 #, fuzzy, python-format
 msgid "%d selected albums"
-msgstr "%d àlbums seleccionats "
+msgstr "%d álbums seleccionados "
 
 #: coverart_browser_source.py:946
 msgid " with 1 track"
-msgstr " amb 1 cançó"
+msgstr " con 1 pista"
 
 #: coverart_browser_source.py:948
 #, python-format
 msgid " with %d tracks"
-msgstr " amb %d cançons"
+msgstr " con %d  pistas"
 
 #: coverart_browser_source.py:952
 msgid " and a duration of 1 minute"
-msgstr " i una duració d'un minut"
+msgstr " e unha duración dun minuto"
 
 #: coverart_browser_source.py:954
 #, python-format
 msgid " and a duration of %d minutes"
-msgstr " i una duració de %d minuts"
+msgstr " e unha duración de %d minutos"
 
 #: coverart_controllers.py:382
 msgid "Sort by album name"
-msgstr "Ordena pel nom de l'àlbum"
+msgstr "Ordear polo nome do álbum"
 
 #: coverart_controllers.py:383
 msgid "Sort by album artist"
-msgstr "Ordena per artista de l'àlbum"
+msgstr "Ordear polo interprete do álbum"
 
 #: coverart_controllers.py:384
 msgid "Sort by year"
-msgstr "Ordena per l'any"
+msgstr "Ordear polo ano"
 
 #: coverart_controllers.py:385
 msgid "Sort by rating"
-msgstr "Ordena per puntuació"
+msgstr "Ordear pola cualificación"
 
 #: coverart_controllers.py:432
 #, fuzzy
 msgid "Download all covers"
-msgstr "Descarrega totes les portades"
+msgstr "Descargar todas as cubertas"
 
 #: coverart_controllers.py:433
 #, fuzzy
 msgid "Play random album"
-msgstr "Reprodueix este àlbum"
+msgstr "Reproducir este álbum"
 
 #: coverart_controllers.py:434
 #, fuzzy
 msgid "Play favourite random album"
-msgstr "Reprodueix les cançons favorites a este àlbum"
+msgstr "Reproducir as pistas preferidas deste álbum"
 
 #: coverart_controllers.py:436
 msgid "Quick artist filter"
@@ -755,98 +757,98 @@ msgstr ""
 #: coverart_controllers.py:439
 #, fuzzy
 msgid "Search Preferences"
-msgstr "Cerca portades"
+msgstr "Busca de cubertas"
 
 #. '20s' as in the decade 2010
 #: coverart_controllers.py:487 coverart_controllers.py:513
 msgid "20s"
-msgstr "20s"
+msgstr "década 2010"
 
 #. '10s' as in the decade 2010
 #: coverart_controllers.py:489
 msgid "10s"
-msgstr "10s"
+msgstr "década 2010"
 
 #. '00s' as in the decade 2000
 #: coverart_controllers.py:491
 msgid "00s"
-msgstr "00s"
+msgstr "década 2000"
 
 #. '90s' as in the decade 1990
 #: coverart_controllers.py:493
 msgid "90s"
-msgstr "90s"
+msgstr "anos 90"
 
 #. '80s' as in the decade 1980
 #: coverart_controllers.py:495
 msgid "80s"
-msgstr "80s"
+msgstr "anos 80"
 
 #. '70s' as in the decade 1970
 #: coverart_controllers.py:497
 msgid "70s"
-msgstr "70s"
+msgstr "anos 70"
 
 #. '60s' as in the decade 1960
 #: coverart_controllers.py:499
 msgid "60s"
-msgstr "60s"
+msgstr "anos 60"
 
 #. '50s' as in the decade 1950
 #: coverart_controllers.py:501
 msgid "50s"
-msgstr "50s"
+msgstr "anos 50"
 
 #. '40s' as in the decade 1940
 #: coverart_controllers.py:503
 msgid "40s"
-msgstr "40s"
+msgstr "anos 40"
 
 #. '30s' as in the decade 1930
 #: coverart_controllers.py:505
 msgid "30s"
-msgstr "30s"
+msgstr "anos 30"
 
 #. 'Older' as in 'older than the year 1930'
 #: coverart_controllers.py:507
 msgid "Older"
-msgstr "Més antigues"
+msgstr "anterior aos anos 30"
 
 #. options
 #: coverart_controllers.py:552
 msgid "Sort in descending order"
-msgstr "Ordena en ordre descendent"
+msgstr "En orde descendente"
 
 #: coverart_controllers.py:553
 msgid "Sort in ascending order"
-msgstr "Ordena en ordre ascendent"
+msgstr "En orde ascendente"
 
 #: coverart_controllers.py:605
 msgid "Search all fields"
-msgstr "Cerca tots els camps"
+msgstr "Buscar todos os campos"
 
 #: coverart_controllers.py:606
 msgid "Search album artists"
-msgstr "Cerca per artista de l'àlbum"
+msgstr "Buscar os interpretes do álbum"
 
 #: coverart_controllers.py:607
 msgid "Search track artists"
-msgstr "Cerca per artista de la cançó"
+msgstr "Buscar os interpretes da pista"
 
 #: coverart_controllers.py:608
 msgid "Search albums"
-msgstr "Cerca els àlbums"
+msgstr "Buscar álbums"
 
 #: coverart_controllers.py:609
 msgid "Search tracks"
-msgstr "Cerca cançons"
+msgstr "Buscar pistas"
 
 #. . TRANSLATORS: Do not translate this string.
 #: coverart_browser_prefs.py:267
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  VPablo https://launchpad.net/~villumar"
+"  Miguel Anxo Bouzada https://launchpad.net/~mbouzada"
 
 #. TRANSLATORS: for example 'Number of covers limited to 150'
 #: coverart_coverflowview.py:197
@@ -857,40 +859,40 @@ msgstr ""
 #. define .plugin text strings used for translation
 #: coverart_browser.py:159
 msgid "CoverArt Browser"
-msgstr "Navegador de Portades"
+msgstr "Navegador de cubertas"
 
 #: coverart_browser.py:160
 msgid "Browse and play your albums through their covers"
-msgstr "Navega i reprodueix els àlbums mitjançant les seues portades"
+msgstr "Examinar e reproducir os seus álbums a través das súas cubertas"
 
 #~ msgid "Above"
-#~ msgstr "Per damunt"
+#~ msgstr "Enriba"
 
 #~ msgid "Top Left"
-#~ msgstr "Superior esquerre"
+#~ msgstr "Arriba á esquerda"
 
 #~ msgid "Top Center"
-#~ msgstr "Superior centrat"
+#~ msgstr "Arriba ao centro"
 
 #~ msgid "Top Right"
-#~ msgstr "Superior dret"
+#~ msgstr "Arriba á dereita"
 
 #~ msgid "Above Cover View"
-#~ msgstr "Per damunt la visualització"
+#~ msgstr "Sobre o visor de cubertas"
 
 #~ msgid "Left Sidebar"
-#~ msgstr "Barra esquerra"
+#~ msgstr "Barra lateral esquerda"
 
 #~ msgid "Right Sidebar"
-#~ msgstr "Barra dreta"
+#~ msgstr "Barra lateral dereita"
 
 #, fuzzy
 #~ msgid "170"
-#~ msgstr "10s"
+#~ msgstr "década 2010"
 
 #, fuzzy
 #~ msgid "Coverflow"
-#~ msgstr "Portada"
+#~ msgstr "Cuberta"
 
 #~ msgid "Search for covers where an album does not currently have one"
-#~ msgstr "Cerca portades per als àlbums que no en tenen"
+#~ msgstr "Busca de cubertas para os álbums que aínda non teñen unha"

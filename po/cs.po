@@ -1,17 +1,17 @@
-# Croatian translation for coverartbrowser
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# Czech translation for coverartbrowser
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
 # This file is distributed under the same license as the coverartbrowser package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: coverartbrowser\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-14 12:05+0100\n"
-"PO-Revision-Date: 2013-08-21 13:19+0000\n"
-"Last-Translator: Paolo Pelesk <ted.teddy.cro@gmail.com>\n"
-"Language-Team: Croatian <hr@li.org>\n"
-"Language: hr\n"
+"PO-Revision-Date: 2014-01-12 12:17+0000\n"
+"Last-Translator: Tadeáš Pařík <tadeas.parik@gmail.com>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,12 +31,12 @@ msgstr ""
 #: tmpl/album-tmpl.html:46
 #, fuzzy
 msgid "Hide all tracks"
-msgstr "Pretraži zapise"
+msgstr "Hledat stopy"
 
 #: tmpl/album-tmpl.html:47 tmpl/album-tmpl.html:88
 #, fuzzy
 msgid "Show all tracks"
-msgstr "Pretraži zapise"
+msgstr "Hledat stopy"
 
 #: tmpl/album-tmpl.html:65
 #, python-format
@@ -47,29 +47,30 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%s (%d track)"
 msgid_plural "%s (%d tracks)"
-msgstr[0] " s %d zapisa"
-msgstr[1] " s %d zapisa"
+msgstr[0] " s %d skladbami"
+msgstr[1] " s %d skladbami"
 
 #: tmpl/album-tmpl.html:101
 msgid "Track list not available"
 msgstr ""
 
 #: tmpl/album-tmpl.html:114
+#, fuzzy
 msgid "Unable to retrieve album information:"
-msgstr ""
+msgstr "Zobrazit informace o albu"
 
 #: tmpl/albumartsearch-tmpl.html:141 tmpl/albumartsearch-tmpl.html:187
 #: tmpl/artistartsearch-tmpl.html:135
 msgid "Search Options"
-msgstr "Opcije pretraživanja"
+msgstr "Volby vyhledávání"
 
 #: tmpl/albumartsearch-tmpl.html:187
 msgid "Tip: doubleclick or drag a cover to use it as the album cover"
-msgstr "Savjet: dvoklik ili dovuci omot koji će se koristiti kao omot albuma"
+msgstr ""
 
 #: tmpl/albumartsearch-tmpl.html:189
 msgid "Search Mode"
-msgstr "Način pretraživanja"
+msgstr "Režim vyhledávání"
 
 #: tmpl/albumartsearch-tmpl.html:191
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:6
@@ -77,7 +78,7 @@ msgstr "Način pretraživanja"
 #: coverart_browser_source.py:351 coverart_browser_source.py:352
 #: coverart_browser_source.py:1125
 msgid "Artist"
-msgstr "Izvođač"
+msgstr "Umělec"
 
 #: tmpl/albumartsearch-tmpl.html:192
 msgid "Album"
@@ -85,44 +86,44 @@ msgstr "Album"
 
 #: tmpl/albumartsearch-tmpl.html:193
 msgid "Artist and album"
-msgstr "Izvođač i album"
+msgstr "Umělec a album"
 
 #: tmpl/albumartsearch-tmpl.html:196 tmpl/artistartsearch-tmpl.html:182
 msgid "Search text"
-msgstr "Pretraži tekst"
+msgstr "Vyhledat text"
 
 #: tmpl/albumartsearch-tmpl.html:199 tmpl/artistartsearch-tmpl.html:185
 msgid "Search"
-msgstr "Pretraga"
+msgstr "Vyhledat"
 
 #: tmpl/albumartsearch-tmpl.html:201 tmpl/artistartsearch-tmpl.html:187
 msgid "Image Size"
-msgstr "Veličina slike"
+msgstr "Velikost obrazu"
 
 #: tmpl/albumartsearch-tmpl.html:203 tmpl/artistartsearch-tmpl.html:189
 msgid "Small"
-msgstr "Mala"
+msgstr "Malý"
 
 #: tmpl/albumartsearch-tmpl.html:204 tmpl/artistartsearch-tmpl.html:190
 msgid "Medium"
-msgstr "Srednja"
+msgstr "Střední"
 
 #: tmpl/albumartsearch-tmpl.html:205 tmpl/artistartsearch-tmpl.html:191
 msgid "Large"
-msgstr "Velika"
+msgstr "Velký"
 
 #: tmpl/albumartsearch-tmpl.html:206 tmpl/artistartsearch-tmpl.html:192
 msgid "Extra Large"
-msgstr "Vrlo velika"
+msgstr "Extra velký"
 
 #: tmpl/albumartsearch-tmpl.html:211 tmpl/artistartsearch-tmpl.html:197
 #: coverart_browser_source.py:116
 msgid "Loading..."
-msgstr "Učitavanje..."
+msgstr "Načítání..."
 
 #: tmpl/albumartsearch-tmpl.html:213 tmpl/artistartsearch-tmpl.html:199
 msgid "Show more results"
-msgstr "Prikaži više rezultata"
+msgstr "Zobrazit více výsledků"
 
 #: tmpl/artist-tmpl.html:9 tmpl/echoartist-tmpl.html:10
 msgid "No information available"
@@ -168,46 +169,44 @@ msgid "Unable to get links"
 msgstr ""
 
 #: tmp/coverart_artist_pop_rb3.ui.h:1
-#, fuzzy
 msgid "Play All"
-msgstr "Reproduciraj album"
+msgstr "Přehrát vše"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:2
-#, fuzzy
 msgid "Queue All"
-msgstr "Dodaj album na listu za reprodukciju"
+msgstr "Vše do fronty"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:3 tmp/coverart_browser_pop_rb3.ui.h:3
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:3
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:3
 #, fuzzy
 msgid "Add to playing"
-msgstr "Dodaj na popis izvođenja"
+msgstr "Přidat do seznamu skladeb"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:4 tmp/coverart_browser_pop_rb3.ui.h:5
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:8
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:8
 msgid "Add to Playlist"
-msgstr "Dodaj na popis izvođenja"
+msgstr "Přidat do seznamu skladeb"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:5 tmp/coverart_browser_pop_rb3.ui.h:6
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:9
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:9 coverart_browser_source.py:746
 #: coverart_entryview.py:638
 msgid "New Playlist"
-msgstr "Novi popis izvođenja"
+msgstr "Nový seznam skladeb"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:6 tmp/coverart_browser_pop_rb3.ui.h:7
 msgid "Search for covers"
-msgstr "Traži omote"
+msgstr "Vyhledat přebaly"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:1
 msgid "Play Album"
-msgstr "Reproduciraj album"
+msgstr "Přehrát album"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:2
 msgid "Queue Album"
-msgstr "Dodaj album na listu za reprodukciju"
+msgstr "Album do fronty"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:4
 msgid "Play Similar Artist"
@@ -215,279 +214,279 @@ msgstr ""
 
 #: tmp/coverart_browser_pop_rb3.ui.h:8
 msgid "Export and embed coverart"
-msgstr "Izvezi i omote"
+msgstr ""
 
 #: tmp/coverart_browser_pop_rb3.ui.h:9
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:10
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:10 coverart_controllers.py:565
 msgid "Properties"
-msgstr "Svojstva"
+msgstr "Vlastnosti"
 
 #: tmp/coverart_browser_prefs.ui.h:1
 msgid "Select a picture"
-msgstr "Odaberi sliku"
+msgstr "Vyberte obrázek"
 
 #: tmp/coverart_browser_prefs.ui.h:2
 msgid "Select picture to add to Edit Genre icon drop-down list"
-msgstr "Odaberite sliku za dodati na padajući popis kod uređivanja žanra"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:3
 msgid "Above"
-msgstr "Iznad"
+msgstr "Nad"
 
 #: tmp/coverart_browser_prefs.ui.h:4
 msgid "Top Left"
-msgstr "Vrh lijevo"
+msgstr "Vlevo nahoře"
 
 #: tmp/coverart_browser_prefs.ui.h:5
 msgid "Top Center"
-msgstr "Vrh centar"
+msgstr "Nahoře uprostřed"
 
 #: tmp/coverart_browser_prefs.ui.h:6
 msgid "Top Right"
-msgstr "Vrh desno"
+msgstr "Vpravo nahoře"
 
 #: tmp/coverart_browser_prefs.ui.h:7
 msgid "Above Cover View"
-msgstr "Iznad pregleda omota"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:8
 msgid "Left Sidebar"
-msgstr "Lijeva rubna traka"
+msgstr "Levý postranní panel"
 
 #: tmp/coverart_browser_prefs.ui.h:9
 msgid "Right Sidebar"
-msgstr "Desna rubna traka"
+msgstr "Pravý postranní panel"
 
 #: tmp/coverart_browser_prefs.ui.h:10
 msgid "Automatically Start"
-msgstr "Automatsko pokretanje"
+msgstr "Spustit automaticky"
 
 #: tmp/coverart_browser_prefs.ui.h:11
 msgid "When rhythmbox starts, switch automatically to the coverart browser."
-msgstr "Pri pokretanju rhythmbox-a, automatski prebaci na coverart preglednik"
+msgstr ""
+"Při startu rhythmboxu přepnout automaticky do prohlížeče uměleckých přebalů."
 
 #: tmp/coverart_browser_prefs.ui.h:12
 msgid "Use source's custom statusbar"
-msgstr "Koristi statusnu traku izvora"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:13
 msgid ""
 "Use the source's custom statusbar to show the current selected album's "
 "related information instead of the global Rhythmbox's statusbar."
 msgstr ""
-"Koristi izvornu statusnu traku za prikaz relativnih informacija odabranih "
-"albuma umjesto globalne Rhythmbox statusne trake."
 
 #: tmp/coverart_browser_prefs.ui.h:14
 msgid ""
 "Number of random\n"
 "albums to play"
 msgstr ""
-"Broj nasumičnih\n"
-"albuma za sviranje"
+"Počet náhodných\n"
+"alb k přehrání"
 
 #: tmp/coverart_browser_prefs.ui.h:16
 msgid "Level above which is regarded as being a favourite track or album"
-msgstr "Razina iznad koje se smatra da je zapis favorit"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:17
 msgid "Favourite Threshold"
-msgstr "Omiljeni trag"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:18
 msgid "General"
-msgstr "Općenito"
+msgstr "Obecné"
 
 #: tmp/coverart_browser_prefs.ui.h:19
 msgid "Album Information"
-msgstr "Informacije albuma"
+msgstr "Informace o albu"
 
 #: tmp/coverart_browser_prefs.ui.h:20
 #, fuzzy
 msgid "Display album information"
-msgstr "Informacije albuma"
+msgstr "Zobrazit informace o albu na přebalu"
 
 #: tmp/coverart_browser_prefs.ui.h:21
 msgid "Font size for the text below the cover-art."
-msgstr "Veličina teksta ispod omota."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:22
 msgid "Font Size:"
-msgstr "Veličina fonta:"
+msgstr "Velikost fontu:"
 
 #: tmp/coverart_browser_prefs.ui.h:23
 msgid "Ellipsize albums names"
-msgstr "Smanji nazive albuma"
+msgstr "Eliptický název alba"
 
 #: tmp/coverart_browser_prefs.ui.h:24
 msgid ""
 "Ellipsizes the albums names to a fixed length when the display text option "
 "is enabled."
-msgstr "Smanji naziv albuma na zadanu duljinu kad je prikaz teksta omogućen."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:25
 msgid "Maximum allowed length for an album's name before being ellipsized."
-msgstr "Maksimalna dozvoljena duljina naziva albuma prije smanjivanja."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:26
 msgid "Maximum length:"
-msgstr "Maksimalna duljina:"
+msgstr "Maximální délka:"
 
 #: tmp/coverart_browser_prefs.ui.h:27
 msgid "Display album's info under cover"
-msgstr "Prikaži informacije albuma ispod omota"
+msgstr "Zobrazit informace o albu pod přebalem"
 
 #: tmp/coverart_browser_prefs.ui.h:28
-#, fuzzy
 msgid "Display album's info within cover"
-msgstr "Prikaži informacije albuma ispod omota"
+msgstr "Zobrazit informace o albu na přebalu"
 
 #: tmp/coverart_browser_prefs.ui.h:29
 msgid "Cover Appearance"
-msgstr "Izgled omota"
+msgstr "Vzhled přebalu"
 
 #: tmp/coverart_browser_prefs.ui.h:30
 msgid "Drop shadow"
-msgstr "Padajuća sjena"
+msgstr "Vrhat stín"
 
 #: tmp/coverart_browser_prefs.ui.h:31
 msgid "Indicates if the albums should drop a shadow on the cover view"
-msgstr "Upućuje da li album treba spustiti sjenu na prikaz omota"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:32
 msgid "Light Source: "
-msgstr "Izvor svijetla: "
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:33
 msgid "Defines the size for the covers showed on the source."
-msgstr "Definira veličinu omota prikazanu na izvoru."
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:34
 msgid "Size (in pixels):"
-msgstr "Veličina (u pikselima):"
+msgstr "Velikost (v pixelech):"
 
 #: tmp/coverart_browser_prefs.ui.h:35
+#, fuzzy
 msgid "Tracks Pane"
-msgstr "Okno zapisa"
+msgstr "Skladby"
 
 #: tmp/coverart_browser_prefs.ui.h:36
 msgid "open or close on click of cover"
-msgstr "otvori ili zatvori na odabir omota"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:37
 msgid "Advanced Options"
-msgstr "Napredne mogućnosti"
+msgstr "Pokročilé možnosti"
 
 #: tmp/coverart_browser_prefs.ui.h:38
 msgid "Padding (space) around the cover and its highlight"
-msgstr "Ispunjavanje oko omota i naglašenog dijela"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:39
 msgid "Spacing between columns and rows"
-msgstr "Razmak između stupaca i redova"
+msgstr "Mezery mezi sloupci a řádky"
 
 #: tmp/coverart_browser_prefs.ui.h:40
 msgid "Padding"
-msgstr "Ispunjavanje"
+msgstr "Odsazení"
 
 #: tmp/coverart_browser_prefs.ui.h:41
 msgid "Spacing"
-msgstr "Razmak"
+msgstr "Mezery"
 
 #. . TRANSLATORS: This is the icon-grid view that the user sees
 #: tmp/coverart_browser_prefs.ui.h:42 coverart_browser.py:146
 #: coverart_browser_source.py:1120
 msgid "Tiles"
-msgstr "Pločice"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:43
+#, fuzzy
 msgid "Flow Appearance"
-msgstr "Prikaz toka"
+msgstr "Vzhled přebalu"
 
 #: tmp/coverart_browser_prefs.ui.h:44
 msgid "Width (px):"
-msgstr "Širina (px):"
+msgstr "Šířka (px):"
 
 #. . TRANSLATORS: percentage size that the image will be expanded
 #: tmp/coverart_browser_prefs.ui.h:46 coverart_browser.py:152
 #, no-c-format
 msgid "Scale by %:"
-msgstr "Skaliraj za %:"
+msgstr "Měřítko %:"
 
 #: tmp/coverart_browser_prefs.ui.h:47
 msgid "Hide Caption"
-msgstr "Sakrij opis"
+msgstr "Skrýt titulek"
 
 #: tmp/coverart_browser_prefs.ui.h:48
 msgid "Maximum covers to display:"
-msgstr "Najviše omota prikaži:"
+msgstr "Maximální počet přebalů k zobrazení:"
 
 #: tmp/coverart_browser_prefs.ui.h:49
 msgid "Background Colour"
-msgstr "Boja pozadine"
+msgstr "Barva pozadí"
 
 #: tmp/coverart_browser_prefs.ui.h:50
 msgid "White"
-msgstr "Bijela"
+msgstr "Bílá"
 
 #: tmp/coverart_browser_prefs.ui.h:51
 msgid "Black"
-msgstr "Crna"
+msgstr "Černá"
 
 #. . TRANSLATORS: This is the cover-flow view the user sees - they can swipe album covers from side-to-side
 #: tmp/coverart_browser_prefs.ui.h:52 coverart_browser.py:149
 #: coverart_browser_source.py:1123
 msgid "Flow"
-msgstr "Protok"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:53
 msgid "Where the toolbar should be positioned"
-msgstr "Gdje postaviti alatnu traku"
+msgstr "Kde má být umístěn panel nástrojů"
 
 #: tmp/coverart_browser_prefs.ui.h:54
 msgid "Position"
-msgstr "Pozicija"
+msgstr "Umístění"
 
 #: tmp/coverart_browser_prefs.ui.h:55
 msgid "Show toolbar: "
-msgstr "Prikaži alatnu traku: "
+msgstr "Zobrazit panel nástrojů: "
 
 #: tmp/coverart_browser_prefs.ui.h:56
 msgid "Look & Feel"
-msgstr "Izgled & osjećaj"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:57
 msgid "Flat-button style"
-msgstr "Gumb ravnog stila"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:58
 msgid "Icon Theme: "
-msgstr "Tema ikona: "
+msgstr "Téma ikon: "
 
 #: tmp/coverart_browser_prefs.ui.h:59
 msgid "Alternative Genres:"
-msgstr "Alternativni žanrovi:"
+msgstr "Alternativní žánry:"
 
 #: tmp/coverart_browser_prefs.ui.h:60
 msgid "Load New Icon: "
-msgstr "Učitaj novu ikonu: "
+msgstr "Načíst novou ikonu: "
 
 #: tmp/coverart_browser_prefs.ui.h:61
 msgid "Select a new genre icon"
-msgstr "Odaberi novu ikonu žarna"
+msgstr "Vybrat novou žánrovou ikonu"
 
 #: tmp/coverart_browser_prefs.ui.h:62
 msgid "Edit Genre Details:"
-msgstr "Uredi detalje žarna:"
+msgstr "Upravit podrobnosti žánru:"
 
 #: tmp/coverart_browser_prefs.ui.h:63
 msgid "Save changes"
-msgstr "Spremi promjene"
+msgstr "Uložit změny"
 
 #: tmp/coverart_browser_prefs.ui.h:64
 msgid "Name:"
-msgstr "Naziv:"
+msgstr "Název:"
 
 #: tmp/coverart_browser_prefs.ui.h:65
 msgid "Icon:"
@@ -495,19 +494,21 @@ msgstr "Ikona:"
 
 #: tmp/coverart_browser_prefs.ui.h:66
 msgid "Current user-defined Genres:"
-msgstr "Trenutni korisnički definirani žanrovi:"
+msgstr ""
 
 #: tmp/coverart_browser_prefs.ui.h:67
+#, fuzzy
 msgid "Add a new alternative genre"
-msgstr "Dodaj novi alternativni žanr"
+msgstr "Alternativní žánry:"
 
 #: tmp/coverart_browser_prefs.ui.h:68
+#, fuzzy
 msgid "Delete an alternative genre"
-msgstr "Ukloni alternativni žanr"
+msgstr "Alternativní žánry:"
 
 #: tmp/coverart_browser_prefs.ui.h:69
 msgid "Alternate Name"
-msgstr "Alternativni naziv"
+msgstr "Alternativní jméno"
 
 #: tmp/coverart_browser_prefs.ui.h:70
 msgid "Icon"
@@ -515,62 +516,64 @@ msgstr "Ikona"
 
 #: tmp/coverart_browser_prefs.ui.h:71
 msgid "Toolbar"
-msgstr "Alatna traka"
+msgstr "Panel nástrojů"
 
 #: tmp/coverart_browser.ui.h:1
 msgid "Tracks & Covers"
-msgstr "Zapisi i omoti"
+msgstr ""
 
 #: tmp/coverart_browser.ui.h:2
+#, fuzzy
 msgid "Track Artist"
-msgstr "Izvođač zapisa"
+msgstr "Umělec"
 
 #: tmp/coverart_browser.ui.h:3
 msgid "Stop coverart fetch."
-msgstr "Zaustavi dohvaćanje omota"
+msgstr ""
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:1
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:1
 msgid "Play Track"
-msgstr "Sviraj zapis"
+msgstr "Přehrát skladbu"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:2
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:2
 msgid "Queue Track"
-msgstr "Dodaj pjesmu na listu za reprodukciju"
+msgstr "Zařadit skladbu do fronty"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:4
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:4
+#, fuzzy
 msgid "Play Similar"
-msgstr ""
+msgstr "Přehrát vše"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:5
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:5
 #, fuzzy
 msgid "Track"
-msgstr "Zapisi"
+msgstr "Skladby"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:7
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:7
 #, fuzzy
 msgid "Genre"
-msgstr "Svi žanrovi"
+msgstr "Všechny žánry"
 
 #: tmp/coverart_exportembed.ui.h:1
 msgid "Choose folder to save tracks:"
-msgstr "Odaberi mapu za pohranu zapisa:"
+msgstr "Vybrat adresář pro uložení stop:"
 
 #: tmp/coverart_exportembed.ui.h:2
 msgid "Select a Folder to export to"
-msgstr "Odaberi mapu za izvoz u"
+msgstr ""
 
 #: tmp/coverart_exportembed.ui.h:3
 msgid "Save tracks within folder using album name"
-msgstr "Pohrani zapise u mapi koristeći naziv albuma"
+msgstr "Uložit stopy do adresáře se jménem alba"
 
 #: tmp/coverart_exportembed.ui.h:4
 msgid "Open embedded track folder in file-manager"
-msgstr "Otvori ugrađenu mapu zapisa u pregledniku datoteka"
+msgstr ""
 
 #. This is a label describing the different options to save the picture artwork in the music file i.e. embed - to insert picture artwork into a music file
 #: tmp/coverart_exportembed.ui.h:6
@@ -579,11 +582,11 @@ msgstr ""
 
 #: tmp/coverart_exportembed.ui.h:7
 msgid "convert to mp3"
-msgstr ""
+msgstr "převést do mp3"
 
 #: tmp/coverart_exportembed.ui.h:8
 msgid "bitrate (kbit/s)"
-msgstr ""
+msgstr "datový tok (kbit/s)"
 
 #. This is a label describing the size of the picture that will be inserted into the music file e.g. change the size from 800x800 pixels to 128x128 pixels
 #: tmp/coverart_exportembed.ui.h:10
@@ -593,30 +596,30 @@ msgstr ""
 #. size in pixels
 #: tmp/coverart_exportembed.ui.h:12
 msgid "(px)"
-msgstr ""
+msgstr "(px)"
 
 #: tmp/coverart_leftsidebar.ui.h:1 tmp/coverart_rightsidebar.ui.h:1
 #: coverart_browser.py:92
 msgid "CoverArt"
-msgstr "Omot"
+msgstr ""
 
 #. initial genre
 #: tmp/coverart_leftsidebar.ui.h:2 tmp/coverart_rightsidebar.ui.h:2
 #: tmp/coverart_topbar.ui.h:1 coverart_controllers.py:221
 #: coverart_controllers.py:275 coverart_controllers.py:376
 msgid "All Genres"
-msgstr "Svi žanrovi"
+msgstr "Všechny žánry"
 
 #: tmp/coverart_leftsidebar.ui.h:3 tmp/coverart_rightsidebar.ui.h:3
 #: tmp/coverart_topbar.ui.h:2 coverart_controllers.py:583
 msgid "All Decades"
-msgstr "Sva desetljeća"
+msgstr "Všechny dekády"
 
 #. This is the different view modes e.g. Music Library, CoverFlow, Tiles or Album Artist
 #: tmp/coverart_leftsidebar.ui.h:4 tmp/coverart_rightsidebar.ui.h:4
 #: tmp/coverart_topbar.ui.h:4 coverart_browser.py:231
 msgid "Views"
-msgstr ""
+msgstr "Zobrazení"
 
 #: tmp/popups.xml.in.h:1
 msgid "rock"
@@ -632,7 +635,7 @@ msgstr "pop"
 
 #: tmp/popups.xml.in.h:4
 msgid "classical"
-msgstr "klasika"
+msgstr "classical"
 
 #: tmp/popups.xml.in.h:5
 msgid "world"
@@ -644,19 +647,19 @@ msgstr "bluegrass"
 
 #: tmp/popups.xml.in.h:7
 msgid "oldies"
-msgstr "stare"
+msgstr "oldies"
 
 #: tmp/popups.xml.in.h:8
 msgid "holiday"
-msgstr "holiday"
+msgstr "prázdniny"
 
 #: tmp/popups.xml.in.h:9
 msgid "comedy"
-msgstr "smiješne"
+msgstr "komedie"
 
 #: tmp/popups.xml.in.h:10
 msgid "spoken"
-msgstr "govoreće"
+msgstr "mluvené slovo"
 
 #: tmp/popups.xml.in.h:11
 msgid "jazz"
@@ -684,11 +687,11 @@ msgstr "ragtime"
 
 #: tmp/popups.xml.in.h:17
 msgid "musical"
-msgstr "musical"
+msgstr "muzikál"
 
 #: tmp/popups.xml.in.h:18
 msgid "dance"
-msgstr "dance"
+msgstr "taneční"
 
 #: tmp/popups.xml.in.h:19
 msgid "reggae"
@@ -696,7 +699,7 @@ msgstr "reggae"
 
 #: tmp/popups.xml.in.h:20
 msgid "electronic"
-msgstr "electronic"
+msgstr "elektronická"
 
 #: tmp/popups.xml.in.h:21
 msgid "soundtrack"
@@ -708,7 +711,7 @@ msgstr "latin"
 
 #: tmp/popups.xml.in.h:23
 msgid "alternative"
-msgstr "alternative"
+msgstr "alternativní"
 
 #: tmp/popups.xml.in.h:24
 msgid "disco"
@@ -724,7 +727,7 @@ msgstr "gospel"
 
 #: tmp/popups.xml.in.h:27
 msgid "experimental"
-msgstr "experimental"
+msgstr "experimentální"
 
 #: tmp/popups.xml.in.h:28
 msgid "new age"
@@ -748,7 +751,7 @@ msgstr "workout"
 
 #: tmp/popups.xml.in.h:33
 msgid "easy listening"
-msgstr "easy listening"
+msgstr "nenáročný poslech"
 
 #: tmp/popups.xml.in.h:34
 msgid "hip-hop"
@@ -756,11 +759,11 @@ msgstr "hip-hop"
 
 #: tmp/popups.xml.in.h:35
 msgid "children"
-msgstr "children"
+msgstr "pro děti"
 
 #: coverart_album.py:1519 coverart_artistinfo.py:61
 msgid "Enable LastFM plugin and log in first"
-msgstr ""
+msgstr "Povolit zásuvný modul LastFM a přihlásit se"
 
 #. . TRANSLATORS - for example "abba's greatest hits by ABBA"
 #: coverart_album.py:1763 coverart_browser_source.py:1033
@@ -785,52 +788,52 @@ msgstr ""
 
 #: coverart_artistview.py:375 coverart_browser_source.py:1041
 msgid " with 1 track"
-msgstr " s jednim zapisom"
+msgstr " s 1 skladbou"
 
 #: coverart_artistview.py:377 coverart_browser_source.py:1043
 #, python-format
 msgid " with %d tracks"
-msgstr " s %d zapisa"
+msgstr " s %d skladbami"
 
 #: coverart_artistview.py:383 coverart_browser_source.py:1047
 msgid " and a duration of 1 minute"
-msgstr " i trajanje od jedne minute"
+msgstr ""
 
 #: coverart_artistview.py:385 coverart_browser_source.py:1049
 #, python-format
 msgid " and a duration of %d minutes"
-msgstr " i trajanje od %d minuta"
+msgstr ""
 
 #. active_object=self.artist_manager.model.store[treepath][self.artist_manager.model.columns['artist_album']]
 #: coverart_artistview.py:819 coverart_artistview.py:910
 #: coverart_entryview.py:83
 msgid "Covers"
-msgstr "Omoti"
+msgstr "Přebaly"
 
 #: coverart_browser_prefs.py:261 coverart_controllers.py:507
 msgid "Browser Preferences"
-msgstr "Svojstva preglednika"
+msgstr "Nastavení prohlížeče"
 
 #. . TRANSLATORS: Do not translate this string.
 #: coverart_browser_prefs.py:298
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  Paolo Pelesk https://launchpad.net/~teddx"
+"  Tadeáš Pařík https://launchpad.net/~pariktadeas"
 
 #. define .plugin text strings used for translation
 #: coverart_browser.py:142
 msgid "CoverArt Browser"
-msgstr "CoverArt Preglednik"
+msgstr "Prohlížeč CoverArt"
 
 #: coverart_browser.py:143
 msgid "Browse and play your albums through their covers"
-msgstr "Pregledavajte i slušajte albume preko omota"
+msgstr ""
 
 #. . TRANSLATORS - "All" is used in the context of "All artist names"
 #: coverart_browser_source.py:511
 msgid "All"
-msgstr "Sve"
+msgstr "Vše"
 
 #: coverart_browser_source.py:658 coverart_browser_source.py:806
 msgid ""
@@ -840,51 +843,51 @@ msgstr ""
 
 #: coverart_browser_source.py:768
 msgid "The number of albums to randomly play is less than that displayed."
-msgstr "Broj albuma za nasumično izvođenje je manja nego prikazano."
+msgstr ""
 
 #. for example "Requesting the picture cover for the music artist Michael Jackson"
 #: coverart_browser_source.py:860 coverart_browser_source.py:862
 #, python-format
 msgid "Requesting cover for %s..."
-msgstr ""
+msgstr "Dotaz na přebal od %s..."
 
 #: coverart_browser_source.py:956
 msgid ""
 "Please install and activate the latest version of the Coverart Search "
 "Providers plugin"
 msgstr ""
-"Molimo instalirajte i pokrenite najnoviju verziju Coverart Search Providers "
-"priključka"
+"Nainstalujte a aktivujte poslední verzi zásuvného modulu CoverArt "
+"vyhledávání poskytovatelů"
 
 #. . TRANSLATORS - the number of albums that have been selected/highlighted
 #: coverart_browser_source.py:1037
 #, python-format
 msgid "%d selected albums"
-msgstr "%d odabranih albuma"
+msgstr "%d vybraných alb"
 
 #: coverart_controllers.py:391 coverart_controllers.py:440
 msgid "Sort by album name"
-msgstr "Sortiraj po nazivu albuma"
+msgstr "Seřadit podle názvu alba"
 
 #: coverart_controllers.py:392
 msgid "Sort by album artist"
-msgstr "Sortiraj po izvođaču albuma"
+msgstr "Seřadit podle názvu umělce"
 
 #: coverart_controllers.py:393 coverart_controllers.py:441
 msgid "Sort by year"
-msgstr "Sortiraj po godini"
+msgstr "Seřadit podle roku"
 
 #: coverart_controllers.py:394 coverart_controllers.py:442
 msgid "Sort by rating"
-msgstr "Sortiraj po ocijeni"
+msgstr "Seřadit podle hodnocení"
 
 #: coverart_controllers.py:499
 msgid "Download all covers"
-msgstr "Preuzmi sve omote"
+msgstr "Stáhnout všechny přebaly"
 
 #: coverart_controllers.py:500
 msgid "Play random album"
-msgstr "Sviraj nasumični album"
+msgstr "Přehrát náhodné album"
 
 #: coverart_controllers.py:501 coverart_controllers.py:555
 msgid "Follow playing song"
@@ -892,136 +895,118 @@ msgstr ""
 
 #: coverart_controllers.py:504 coverart_controllers.py:552
 msgid "Use favourites only"
-msgstr ""
+msgstr "Použít pouze oblíbené"
 
 #: coverart_controllers.py:508
 msgid "Search Preferences"
-msgstr "Postavke pretraživanja"
+msgstr "Předvolby vyhledávání"
 
 #. '20s' as in the decade 2010
 #: coverart_controllers.py:585 coverart_controllers.py:611
 msgid "20s"
-msgstr "2000te"
+msgstr "20. léta"
 
 #. '10s' as in the decade 2010
 #: coverart_controllers.py:587
 msgid "10s"
-msgstr "2010te"
+msgstr "10. léta"
 
 #. '00s' as in the decade 2000
 #: coverart_controllers.py:589
 msgid "00s"
-msgstr "2000te"
+msgstr "00. léta"
 
 #. '90s' as in the decade 1990
 #: coverart_controllers.py:591
 msgid "90s"
-msgstr "90te"
+msgstr "90. léta"
 
 #. '80s' as in the decade 1980
 #: coverart_controllers.py:593
 msgid "80s"
-msgstr "80te"
+msgstr "80. léta"
 
 #. '70s' as in the decade 1970
 #: coverart_controllers.py:595
 msgid "70s"
-msgstr "70te"
+msgstr "70. léta"
 
 #. '60s' as in the decade 1960
 #: coverart_controllers.py:597
 msgid "60s"
-msgstr "60te"
+msgstr "60. léta"
 
 #. '50s' as in the decade 1950
 #: coverart_controllers.py:599
 msgid "50s"
-msgstr "50te"
+msgstr "50. léta"
 
 #. '40s' as in the decade 1940
 #: coverart_controllers.py:601
 msgid "40s"
-msgstr "40te"
+msgstr "40. léta"
 
 #. '30s' as in the decade 1930
 #: coverart_controllers.py:603
 msgid "30s"
-msgstr "30te"
+msgstr "30. léta"
 
 #. 'Older' as in 'older than the year 1930'
 #: coverart_controllers.py:605
 msgid "Older"
-msgstr "Starije"
+msgstr "Starší"
 
 #. options
 #: coverart_controllers.py:651
 msgid "Sort in descending order"
-msgstr "Sortiraj po silaznom redoslijedu"
+msgstr "Seřadit sestupně"
 
 #: coverart_controllers.py:652
 msgid "Sort in ascending order"
-msgstr "Sortiraj po ulaznom redoslijedu"
+msgstr "Seřadit vzestupně"
 
 #: coverart_controllers.py:713
 msgid "Search all fields"
-msgstr "Pretraži sva polja"
+msgstr "Hledat ve všech polích"
 
 #: coverart_controllers.py:714
 msgid "Search album artists"
-msgstr "Pretraži izvođače albuma"
+msgstr "Vyhledat alba umělců"
 
 #: coverart_controllers.py:715
 msgid "Search track artists"
-msgstr "Pretraži izvođače zapisa"
+msgstr "Vyhledat stopy umělců"
 
 #: coverart_controllers.py:716
 #, fuzzy
 msgid "Search composers"
-msgstr "Traži omote"
+msgstr "Vyhledat přebaly"
 
 #: coverart_controllers.py:717
 msgid "Search albums"
-msgstr "Pretraži albume"
+msgstr "Hledat alba"
 
 #: coverart_controllers.py:718
 #, fuzzy
 msgid "Search titles"
-msgstr "Pretraži tekst"
+msgstr "Vyhledat text"
 
 #. TRANSLATORS: for example 'Number of covers limited to 150'
 #: coverart_coverflowview.py:196
 #, python-format
 msgid "Number of covers limited to %d"
-msgstr "Broj omota ograničen na %d"
+msgstr "Počet přebalů omezen na %d"
 
 #: coverart_entryview.py:75
 msgid "Tracks"
-msgstr "Zapisi"
+msgstr "Skladby"
 
 #: coverart_playlists.py:165
 msgid "No matching tracks have been found"
 msgstr ""
 
-#~ msgid "Display tracks and covers pane"
-#~ msgstr "Prikaži zapise i okno omota"
-
-#~ msgid ""
-#~ "Add a toggle-option to the coverart view to display the tracks and covers "
-#~ "for the chosen album"
-#~ msgstr ""
-#~ "Dodaj prekidač na coverart pregled za prikaz zapisa i omota odabranog "
-#~ "albuma"
-
-#~ msgid ""
-#~ "Tip: Drag and Drop exported tracks from file-manager to a playlist or "
-#~ "telephone/other device"
-#~ msgstr ""
-#~ "Savjet: Dovuci i pusti izvezene zapise iz preglednika datoteka na popis "
-#~ "za sviranje ili telefon/drugi uređaj"
-
-#, fuzzy
 #~ msgid "size in pixels"
-#~ msgstr "Veličina (u pikselima):"
+#~ msgstr "velikost v pixelech"
 
 #~ msgid "Quick artist filter"
-#~ msgstr "Brzi filter izvođača"
+#~ msgstr "Rychlý filtr umělců"

@@ -1,69 +1,70 @@
-# French Canadian translations for coverart-browser package.
-# Copyright (C) 2013 ORGANIZATION
-# Automatically generated, 2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 #
+# Translators:
+# Automatically generated, 2013
+# fossfreedom <foss.freedom@gmail.com>, 2014
+# jrbastien <jrbastien@yahoo.com>, 2014
+# jrbastien <jrbastien@yahoo.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1\n"
+"Project-Id-Version: coverartbrowser\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-14 23:18+0100\n"
-"PO-Revision-Date: 2014-01-14 21:13+0000\n"
-"Last-Translator: Jean-Rene Bastien <Unknown>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2014-06-22 10:29+0100\n"
+"PO-Revision-Date: 2014-06-19 19:44+0000\n"
+"Last-Translator: jrbastien <jrbastien@yahoo.com>\n"
+"Language-Team: French (Canada) (http://www.transifex.com/projects/p/"
+"coverartbrowser/language/fr_CA/)\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-01-16 21:56+0000\n"
-"X-Generator: Launchpad (build 16901)\n"
-"Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. TRANSLATORS: album duration (length) in the format hour:minute:second
 #: tmpl/album-tmpl.html:20
 #, python-format
 msgid "%d:%02d:%02d"
-msgstr ""
+msgstr "%d:%02d:%02d"
 
 #. TRANSLATORS: album duration (length) in the format minute:second
 #: tmpl/album-tmpl.html:23
 #, python-format
 msgid "%d:%02d"
-msgstr ""
+msgstr "%d:%02d"
 
 #: tmpl/album-tmpl.html:48
-#, fuzzy
 msgid "Hide all tracks"
-msgstr "Rechercher les pistes"
+msgstr "Cacher toutes les pistes"
 
 #: tmpl/album-tmpl.html:49 tmpl/album-tmpl.html:93
-#, fuzzy
 msgid "Show all tracks"
-msgstr "Rechercher les pistes"
+msgstr "Afficher toutes les pistes"
 
 #. TRANSLATORS: where %s is the artist name - for example "Top Albums by
 #. Michael Jackson"
 #: tmpl/album-tmpl.html:69
 #, python-format
 msgid "Top albums by %s"
-msgstr ""
+msgstr "Les meilleurs albums de %s"
 
 #. TRANSLATORS: %s is just a string and is not translated, %d is a number and
 #. is the number of track(s)
 #: tmpl/album-tmpl.html:87
-#, fuzzy, python-format
+#, python-format
 msgid "%s (%d track)"
 msgid_plural "%s (%d tracks)"
-msgstr[0] " avec %d pistes"
-msgstr[1] " avec %d pistes"
+msgstr[0] "%s (%d piste)"
+msgstr[1] "%s (%d pistes)"
 
 #: tmpl/album-tmpl.html:106
 msgid "Track list not available"
-msgstr ""
+msgstr "La liste des pistes n'est pas disponible"
 
 #: tmpl/album-tmpl.html:119
-#, fuzzy
 msgid "Unable to retrieve album information:"
-msgstr "Afficher l'information de l'album"
+msgstr "Impossible de retrouver les informations de l'album"
 
 #: tmpl/albumartsearch-tmpl.html:141 tmpl/albumartsearch-tmpl.html:187
 #: tmpl/artistartsearch-tmpl.html:135
@@ -83,8 +84,8 @@ msgstr "Mode de recherche"
 #: tmpl/albumartsearch-tmpl.html:191
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:6
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:6 coverart_artistview.py:823
-#: coverart_browser_source.py:351 coverart_browser_source.py:352
-#: coverart_browser_source.py:1125
+#: coverart_browser_source.py:352 coverart_browser_source.py:353
+#: coverart_browser_source.py:1139
 msgid "Artist"
 msgstr "Artiste"
 
@@ -125,7 +126,7 @@ msgid "Extra Large"
 msgstr "Énorme"
 
 #: tmpl/albumartsearch-tmpl.html:211 tmpl/artistartsearch-tmpl.html:197
-#: coverart_browser_source.py:116
+#: coverart_browser_source.py:117
 msgid "Loading..."
 msgstr "Chargement..."
 
@@ -135,15 +136,15 @@ msgstr "Afficher plus de résultats"
 
 #: tmpl/artist-tmpl.html:9 tmpl/echoartist-tmpl.html:10
 msgid "No information available"
-msgstr ""
+msgstr "Aucune information disponible"
 
 #: tmpl/artist-tmpl.html:28
 msgid "Unfilter"
-msgstr ""
+msgstr "De-filtrer"
 
 #: tmpl/artist-tmpl.html:29 tmpl/artist-tmpl.html:114
 msgid "Filter"
-msgstr ""
+msgstr "Filtrer"
 
 #. TRANSLATORS: Links for artist-name e.g. Links for Michael Jackson
 #: tmpl/artist-tmpl.html:80 tmpl/artist-tmpl.html:87
@@ -151,19 +152,19 @@ msgstr ""
 #: tmpl/links-tmpl.html:15 tmpl/links-tmpl.html:21
 #, python-format
 msgid "Links for %s:"
-msgstr ""
+msgstr "Liens pour %s:"
 
 #: tmpl/artist-tmpl.html:97
 msgid "Similar Artists"
-msgstr ""
+msgstr "Artistes similaires"
 
 #: tmpl/artist-tmpl.html:108
 msgid "similar"
-msgstr ""
+msgstr "similaire"
 
 #: tmpl/artist-tmpl.html:124 tmpl/echoartist-tmpl.html:69
 msgid "Unable to retrieve artist information:"
-msgstr ""
+msgstr "Impossible de retrouver les informations de l'artiste:"
 
 #: tmpl/artistartsearch-tmpl.html:180
 msgid "Tip: doubleclick or drag a cover to use it as the artist cover"
@@ -173,11 +174,11 @@ msgstr ""
 
 #: tmpl/echoartist-tmpl.html:66
 msgid "Biography provided by: "
-msgstr ""
+msgstr "Biographie fournie par:"
 
 #: tmpl/links-tmpl.html:28
 msgid "Unable to get links"
-msgstr ""
+msgstr "Impossible d'obtenir les liens"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:1
 msgid "Play All"
@@ -190,9 +191,8 @@ msgstr "Tout mettre en attente"
 #: tmp/coverart_artist_pop_rb3.ui.h:3 tmp/coverart_browser_pop_rb3.ui.h:3
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:3
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:3
-#, fuzzy
 msgid "Add to playing"
-msgstr "Ajouter à une liste de lecture"
+msgstr "Ajouter à la liste de lecture"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:4 tmp/coverart_browser_pop_rb3.ui.h:5
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:8
@@ -202,7 +202,7 @@ msgstr "Ajouter à une liste de lecture"
 
 #: tmp/coverart_artist_pop_rb3.ui.h:5 tmp/coverart_browser_pop_rb3.ui.h:6
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:9
-#: tmp/coverart_entryview_full_pop_rb3.ui.h:9 coverart_browser_source.py:746
+#: tmp/coverart_entryview_full_pop_rb3.ui.h:9 coverart_browser_source.py:757
 #: coverart_entryview.py:638
 msgid "New Playlist"
 msgstr "Nouvelle liste de lecture"
@@ -221,7 +221,7 @@ msgstr "Mettre l'album en attente"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:4
 msgid "Play Similar Artist"
-msgstr ""
+msgstr "Jouer les artites similaires"
 
 #: tmp/coverart_browser_pop_rb3.ui.h:8
 msgid "Export and embed coverart"
@@ -234,30 +234,30 @@ msgid "Properties"
 msgstr "Propriétés"
 
 #: tmp/coverart_browser_prefs.ui.h:1
+msgid "Above"
+msgstr "Au-dessus"
+
+#: tmp/coverart_browser_prefs.ui.h:2
+msgid "Top Left"
+msgstr "Supérieur gauche"
+
+#: tmp/coverart_browser_prefs.ui.h:3
+msgid "Top Center"
+msgstr "Supérieur centre"
+
+#: tmp/coverart_browser_prefs.ui.h:4
+msgid "Top Right"
+msgstr "Supérieur droit"
+
+#: tmp/coverart_browser_prefs.ui.h:5
 msgid "Select a picture"
 msgstr "Sélectionner une image"
 
-#: tmp/coverart_browser_prefs.ui.h:2
+#: tmp/coverart_browser_prefs.ui.h:6
 msgid "Select picture to add to Edit Genre icon drop-down list"
 msgstr ""
 "Sélectionner une image à ajouter pour éditer la liste déroulante des icônes "
 "de genre"
-
-#: tmp/coverart_browser_prefs.ui.h:3
-msgid "Above"
-msgstr "Au-dessus"
-
-#: tmp/coverart_browser_prefs.ui.h:4
-msgid "Top Left"
-msgstr "Supérieur gauche"
-
-#: tmp/coverart_browser_prefs.ui.h:5
-msgid "Top Center"
-msgstr "Supérieur centre"
-
-#: tmp/coverart_browser_prefs.ui.h:6
-msgid "Top Right"
-msgstr "Supérieur droit"
 
 #: tmp/coverart_browser_prefs.ui.h:7
 msgid "Above Cover View"
@@ -317,9 +317,8 @@ msgid "Album Information"
 msgstr "Informations sur l'album"
 
 #: tmp/coverart_browser_prefs.ui.h:20
-#, fuzzy
 msgid "Display album information"
-msgstr "Afficher l'info de l'album sur la pochette"
+msgstr "Afficher les informations de l'album"
 
 #: tmp/coverart_browser_prefs.ui.h:21
 msgid "Font size for the text below the cover-art."
@@ -411,7 +410,7 @@ msgstr "Espacement"
 
 #. . TRANSLATORS: This is the icon-grid view that the user sees
 #: tmp/coverart_browser_prefs.ui.h:42 coverart_browser.py:146
-#: coverart_browser_source.py:1120
+#: coverart_browser_source.py:1134
 msgid "Tiles"
 msgstr "Mosaïque"
 
@@ -451,7 +450,7 @@ msgstr "Noir"
 
 #. . TRANSLATORS: This is the cover-flow view the user sees - they can swipe album covers from side-to-side
 #: tmp/coverart_browser_prefs.ui.h:52 coverart_browser.py:149
-#: coverart_browser_source.py:1123
+#: coverart_browser_source.py:1137
 msgid "Flow"
 msgstr "Flux"
 
@@ -555,21 +554,18 @@ msgstr "Mettre la piste en attente"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:4
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:4
-#, fuzzy
 msgid "Play Similar"
-msgstr "Tout jouer"
+msgstr "Jouer les sémilaires"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:5
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:5
-#, fuzzy
 msgid "Track"
-msgstr "Pistes"
+msgstr "Piste"
 
 #: tmp/coverart_entryview_compact_pop_rb3.ui.h:7
 #: tmp/coverart_entryview_full_pop_rb3.ui.h:7
-#, fuzzy
 msgid "Genre"
-msgstr "Tous les genres"
+msgstr "Genre"
 
 #: tmp/coverart_exportembed.ui.h:1
 msgid "Choose folder to save tracks:"
@@ -775,45 +771,45 @@ msgstr "hip-hop"
 msgid "children"
 msgstr "enfants"
 
-#: coverart_album.py:1519 coverart_artistinfo.py:61
+#: coverart_album.py:1519 coverart_artistinfo.py:62
 msgid "Enable LastFM plugin and log in first"
 msgstr "Activez le greffon LastFM et connectez-vous d'abord."
 
 #. . TRANSLATORS - for example "abba's greatest hits by ABBA"
-#: coverart_album.py:1763 coverart_browser_source.py:1033
+#: coverart_album.py:1763 coverart_browser_source.py:1047
 #, python-format
 msgid "%s by %s"
 msgstr "%s par %s"
 
-#: coverart_artistinfo.py:389
+#: coverart_artistinfo.py:420
 #, python-format
 msgid "Loading biography for %s"
-msgstr ""
+msgstr "Chargement de la biographie pour %s"
 
-#: coverart_artistinfo.py:670
+#: coverart_artistinfo.py:704
 msgid "No artist specified."
-msgstr ""
+msgstr "Aucun artiste de spécifié."
 
 #. Translators: 'top' here means 'most popular'.  %s is replaced by the artist name.
-#: coverart_artistinfo.py:687
+#: coverart_artistinfo.py:724
 #, python-format
 msgid "Loading top albums for %s"
-msgstr ""
+msgstr "Chargement des meilleurs albums de %s"
 
-#: coverart_artistview.py:375 coverart_browser_source.py:1041
+#: coverart_artistview.py:375 coverart_browser_source.py:1055
 msgid " with 1 track"
 msgstr " avec 1 piste"
 
-#: coverart_artistview.py:377 coverart_browser_source.py:1043
+#: coverart_artistview.py:377 coverart_browser_source.py:1057
 #, python-format
 msgid " with %d tracks"
 msgstr " avec %d pistes"
 
-#: coverart_artistview.py:383 coverart_browser_source.py:1047
+#: coverart_artistview.py:383 coverart_browser_source.py:1061
 msgid " and a duration of 1 minute"
 msgstr " et une durée de 1 minute"
 
-#: coverart_artistview.py:385 coverart_browser_source.py:1049
+#: coverart_artistview.py:385 coverart_browser_source.py:1063
 #, python-format
 msgid " and a duration of %d minutes"
 msgstr " et une durée de %d minutes"
@@ -824,12 +820,12 @@ msgstr " et une durée de %d minutes"
 msgid "Covers"
 msgstr "Pochettes"
 
-#: coverart_browser_prefs.py:261 coverart_controllers.py:507
+#: coverart_browser_prefs.py:262 coverart_controllers.py:507
 msgid "Browser Preferences"
 msgstr "Préférences du navigateur"
 
 #. . TRANSLATORS: Do not translate this string.
-#: coverart_browser_prefs.py:298
+#: coverart_browser_prefs.py:307
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -847,11 +843,11 @@ msgid "Browse and play your albums through their covers"
 msgstr "Parcourir les pochettes de vos albums et les jouer"
 
 #. . TRANSLATORS - "All" is used in the context of "All artist names"
-#: coverart_browser_source.py:511
+#: coverart_browser_source.py:522
 msgid "All"
 msgstr "Tous"
 
-#: coverart_browser_source.py:658 coverart_browser_source.py:806
+#: coverart_browser_source.py:669 coverart_browser_source.py:817
 msgid ""
 "No tracks have been added because no tracks meet the favourite rating "
 "threshold"
@@ -859,17 +855,17 @@ msgstr ""
 "Aucune piste n'a été ajouté car aucune a une note supérieure au seuil des "
 "favorites"
 
-#: coverart_browser_source.py:768
+#: coverart_browser_source.py:779
 msgid "The number of albums to randomly play is less than that displayed."
 msgstr "Le nombre d'albums à jouer aléatoirement est moindre qu'affiché."
 
 #. for example "Requesting the picture cover for the music artist Michael Jackson"
-#: coverart_browser_source.py:860 coverart_browser_source.py:862
+#: coverart_browser_source.py:871 coverart_browser_source.py:873
 #, python-format
 msgid "Requesting cover for %s..."
 msgstr "Recherche d'image pour %s..."
 
-#: coverart_browser_source.py:956
+#: coverart_browser_source.py:970
 msgid ""
 "Please install and activate the latest version of the Coverart Search "
 "Providers plugin"
@@ -878,7 +874,7 @@ msgstr ""
 "pochettes - Moteurs de recherche\""
 
 #. . TRANSLATORS - the number of albums that have been selected/highlighted
-#: coverart_browser_source.py:1037
+#: coverart_browser_source.py:1051
 #, python-format
 msgid "%d selected albums"
 msgstr "%d albums sélectionnés"
@@ -909,7 +905,7 @@ msgstr "Jouer un album au hasard"
 
 #: coverart_controllers.py:501 coverart_controllers.py:555
 msgid "Follow playing song"
-msgstr ""
+msgstr "Suivre la chanson en lecture"
 
 #: coverart_controllers.py:504 coverart_controllers.py:552
 msgid "Use favourites only"
@@ -996,18 +992,16 @@ msgid "Search track artists"
 msgstr "Rechercher les artistes de la piste"
 
 #: coverart_controllers.py:716
-#, fuzzy
 msgid "Search composers"
-msgstr "Rechercher les pochettes"
+msgstr "Rechercher les compositeurs"
 
 #: coverart_controllers.py:717
 msgid "Search albums"
 msgstr "Rechercher les albums"
 
 #: coverart_controllers.py:718
-#, fuzzy
 msgid "Search titles"
-msgstr "Texte de recherche"
+msgstr "Rechercher les titres"
 
 #. TRANSLATORS: for example 'Number of covers limited to 150'
 #: coverart_coverflowview.py:196
@@ -1015,33 +1009,14 @@ msgstr "Texte de recherche"
 msgid "Number of covers limited to %d"
 msgstr "Nombre de pochettes limité à %d"
 
+#: coverart_covericonview.py:582
+msgid "Album has added to list of playing albums"
+msgstr ""
+
 #: coverart_entryview.py:75
 msgid "Tracks"
 msgstr "Pistes"
 
 #: coverart_playlists.py:165
 msgid "No matching tracks have been found"
-msgstr ""
-
-#~ msgid "Display tracks and covers pane"
-#~ msgstr "Afficher les pistes et le volet pochettes"
-
-#~ msgid ""
-#~ "Add a toggle-option to the coverart view to display the tracks and covers "
-#~ "for the chosen album"
-#~ msgstr ""
-#~ "Ajouter une option pour basculer entre l'affichage des pochettes seules "
-#~ "et l'affichage des pistes et des pochettes pour l'album choisi"
-
-#~ msgid ""
-#~ "Tip: Drag and Drop exported tracks from file-manager to a playlist or "
-#~ "telephone/other device"
-#~ msgstr ""
-#~ "Astuce: Glisser-déposer les pistes exportées du gestionnaire de fichiers "
-#~ "vers une liste de lecture ou un téléphone/autre appareil"
-
-#~ msgid "size in pixels"
-#~ msgstr "taille en pixels"
-
-#~ msgid "Quick artist filter"
-#~ msgstr "Filtre rapide par artiste"
+msgstr "Aucune piste correspondante a été trouvé."
